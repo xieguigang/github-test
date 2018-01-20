@@ -1,6 +1,7 @@
-﻿<% ../includes/template.vbhtml %>
+﻿<%= ../includes/template.vbhtml %>
 
+<?vb $title = "sciBASIC: Microsoft VisualBasic for scientific computing" ?>
 <?vb
-	Dim $content As <% ./index.resource.vbhtml %>
+	Dim $content As <%= ./about.resource.vbhtml %>
 ?>
 

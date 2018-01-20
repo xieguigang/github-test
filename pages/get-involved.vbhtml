@@ -1,6 +1,6 @@
-﻿<% ../includes/template.vbhtml %>
+﻿<%= ../includes/template.vbhtml %>
 
-<?vb 
-	Dim $content As <% ./index.resource.vbhtml %>
+<?vb $title = "Contribute to sciBASIC framework" ?>
+<?vb
+	Dim $content As <%= ./get-involved.resource.vbhtml %>
 ?>
-

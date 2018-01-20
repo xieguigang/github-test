@@ -10,7 +10,7 @@
     <meta property="og:image:width" content="224">
     <meta property="og:image:height" content="256">
 
-    <title>sciBASIC: Microsoft VisualBasic for Scientific Computing</title>
+    <title>$title</title>
 
     <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
     <link rel="dns-prefetch" href="http://fonts.gstatic.com/">

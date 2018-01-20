@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<% ../includes/head.vbhtml %>
+<%= ../includes/head.vbhtml %>
 
 <body>
-    <% ../includes/header.vbhtml %>
+    <%= ../includes/header.vbhtml %>
 
     <div id="main">
         <div class="container">
@@ -11,6 +11,6 @@
         </div>
     </div>
 
-    <% ../includes/footer.vbhtml %>
+    <%= ../includes/footer.vbhtml %>
 </body>
 </html>
