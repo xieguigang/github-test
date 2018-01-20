@@ -3,6 +3,7 @@
     <meta name="author" content="谢桂纲">
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="sciBASIC: Microsoft VisualBasic for Scientific Computing">
     <meta property="og:site_name" content="sciBASIC: Microsoft VisualBasic for Scientific Computing">
     <meta property="og:title" content="Microsoft VisualBasic for Scientific Computing">
     <meta property="og:image" content="favicon.png">

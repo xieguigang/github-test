@@ -7,7 +7,7 @@
                 </a>
                 <ul class="list-divider-pipe issue-link" style="margin-top: -50px;">
                     <li><a href="https://github.com/xieguigang/sciBASIC/issues">Report sciBASIC framework issue</a></li>
-                    <li><a href="https://github.com/xieguigang/sciBASIC/issues">Contribute to this website</a></li>
+                    <li><a href="https://github.com/xieguigang/sciBASIC/issues">Contribute to</a></li>
                     <li><a href="https://github.com/xieguigang/sciBASIC">Github/sciBASIC</a></li>
                 </ul>
             </div>

@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <%= ../includes/head.vbhtml %>
 
 <body>
