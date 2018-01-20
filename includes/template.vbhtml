@@ -1,20 +1,16 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <% ../includes/head.vbhtml %>
 
 <body>
-
-<% ../includes/header.vbhtml %>
+    <% ../includes/header.vbhtml %>
 
     <div id="main">
         <div class="container">
-			$content
+            $content
         </div>
     </div>
-    
-<% ../includes/footer.vbhtml %>
-	
+
+    <% ../includes/footer.vbhtml %>
 </body>
 </html>
