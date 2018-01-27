@@ -15,7 +15,7 @@
                     <a href="/downloads.html">Downloads</a>
                 </li>
                 <li>
-                    <a href="/articles/index.html">Docs</a>
+                    <a href="/docs/index.html">Docs</a>
                 </li>
                 <li>
                     <a href="/get-involved.html">Get Involved</a>
