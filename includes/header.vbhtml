@@ -1,7 +1,7 @@
 <header>
     <div class="container">
         <a href="http://sciBASIC.net/" id="logo" style="position: absolute; left:0px; top:0px;">
-            <img src="images/logo-white.png" height="65px" alt="sciBASIC logo">
+            <img src="/images/logo-white.png" height="65px" alt="sciBASIC logo">
         </a>
         <nav style="height:85px;">
             <ul class="list-divider-pipe" style="position: absolute; left: 300px; top: 20px;">
@@ -15,7 +15,7 @@
                     <a href="/downloads.html">Downloads</a>
                 </li>
                 <li>
-                    <a href="/docs.html">Docs</a>
+                    <a href="/articles/index.html">Docs</a>
                 </li>
                 <li>
                     <a href="/get-involved.html">Get Involved</a>

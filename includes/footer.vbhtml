@@ -3,7 +3,7 @@
         <div class="scibasic-footer">
             <div class="issue-link-container">
                 <a class="scibasic-logo">
-                    <img alt="Microsoft VisualBasic for Scientific Computing" src="images/logo-white.png" />
+                    <img alt="Microsoft VisualBasic for Scientific Computing" src="/images/logo-white.png" />
                 </a>
                 <ul class="list-divider-pipe issue-link" style="margin-top: -50px;">
                     <li><a href="https://github.com/xieguigang/sciBASIC/issues">Report sciBASIC framework issue</a></li>
@@ -21,16 +21,16 @@
     </div>
 </footer>
 
-<link rel="stylesheet" href="lib/prism-tomorrow.css" media="all">
+<link rel="stylesheet" href="/lib/prism-tomorrow.css" media="all">
 
-<script data-cfasync="false" src="lib/email-decode.min.js"></script>
+<script data-cfasync="false" src="/lib/email-decode.min.js"></script>
 <script type="text/javascript">
     (function (d, e, m, s) {
         if (!/(MSIE|Trident)/.test(navigator.userAgent)) { return; }
         m = d.createElement(e);
-        s = d.getElementsByTagName(e)[0]; m.async = 1; m.src = 'lib/modernizr.custom.js';
+        s = d.getElementsByTagName(e)[0]; m.async = 1; m.src = '/lib/modernizr.custom.js';
         m.onload = function () { Modernizr.addTest('flexboxtweener', Modernizr.testAllProps('flexAlign')); };
         s.parentNode.insertBefore(m, s);
     })(document, 'script');
 </script>
-<script src="lib/dnt_helper.js"></script>
+<script src="/lib/dnt_helper.js"></script>
