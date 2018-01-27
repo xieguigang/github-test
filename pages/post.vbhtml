@@ -1,1 +1,1 @@
-<%= ../includes/template.vbhtml %>
+<%= ../includes/post.template.vbhtml %>
