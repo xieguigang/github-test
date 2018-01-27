@@ -19,6 +19,8 @@
 	  
 	  <h1>sciBASIC ecosystem</h1>
 	  
+	  <p>If you have any open source scientific computing project that use sciBASIC framework, please tell about us. Submit your open source project to this from <a href="mailto://foundation@scibasic.net">foundation@scibasic.net</a></p>
+	  
 	  <h2>GCModeller</h2>
 	  
 	  
