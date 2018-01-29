@@ -21,7 +21,7 @@
     </div>
 </footer>
 
-<link rel="stylesheet" href="/lib/prism-tomorrow.css" media="all">
+<link rel="stylesheet" href="/styles/prism-tomorrow.css" media="all">
 
 <script data-cfasync="false" src="/lib/email-decode.min.js"></script>
 <script type="text/javascript">
