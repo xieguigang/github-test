@@ -7,12 +7,12 @@
             <ul class="list-divider-pipe" style="position: absolute; left: 300px; top: 20px;">
                 <li>
                     <a href="/index.html">Home</a>
-                </li>
-                <li>
-                    <a href="/about.html">About</a>
-                </li>
+                </li>                
                 <li>
                     <a href="/downloads.html">Downloads</a>
+                </li>
+				<li>
+                    <a href="/source/index.html">Reference</a>
                 </li>
                 <li>
                     <a href="/docs/index.html">Docs</a>
