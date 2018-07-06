@@ -1,5 +1,8 @@
 <html>
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="VisualBasic Programming" />
     <title>ApplicationServices\Terminal\ProgressBar\ProgressBar.vb</title>
     <style type="text/css">
                             
@@ -36,7 +39,8 @@
                                 color: #2b91af;                                
                                 text-align: right;
                                 padding-right: 5px;
-                                border-right-style: inset;
+                                /* border-right-style: inset; 
+                                */
                             }
 
                             .js-file-line .js-line-number {
@@ -46,6 +50,11 @@
                             .js-file-line {
                                 padding-left: 10px;
                             }
+
+                            a:link { text-decoration: none;color: #2b91af}
+　　                        a:active { text-decoration:blink}
+　　                        a:hover { text-decoration:underline;color: #2b91af} 
+　　                        a:visited { text-decoration: none;color: #2b91af}
                         </style>
   </head>
   <body>
@@ -225,43 +234,43 @@
 </tr>
 <tr>
   <td id="L44" class="blob-num js-line-number" data-line-number="44">44</td>
-  <td id="LC44" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Sub</span>:&nbsp;[Step],&nbsp;__resize,&nbsp;__tick,&nbsp;(+2&nbsp;<span class="keyword">Overloads</span>)&nbsp;Dispose,&nbsp;(+3&nbsp;<span class="keyword">Overloads</span>)&nbsp;<span class="keyword">New</span></span><br /></td>
+  <td id="LC44" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Const</span>ructor:&nbsp;(+3&nbsp;<span class="keyword">Overloads</span>)&nbsp;<span class="keyword">Sub</span>&nbsp;<span class="keyword">New</span></span><br /></td>
 </tr>
 <tr>
   <td id="L45" class="blob-num js-line-number" data-line-number="45">45</td>
-  <td id="LC45" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Set</span>Progress,&nbsp;<span class="keyword">Set</span>ToEchoLine</span><br /></td>
+  <td id="LC45" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Sub</span>:&nbsp;[Step],&nbsp;__resize,&nbsp;__tick,&nbsp;(+2&nbsp;<span class="keyword">Overloads</span>)&nbsp;Dispose,&nbsp;<span class="keyword">Set</span>Progress</span><br /></td>
 </tr>
 <tr>
   <td id="L46" class="blob-num js-line-number" data-line-number="46">46</td>
-  <td id="LC46" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;</span><br /></td>
+  <td id="LC46" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Set</span>ToEchoLine</span><br /></td>
 </tr>
 <tr>
   <td id="L47" class="blob-num js-line-number" data-line-number="47">47</td>
-  <td id="LC47" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Class</span>&nbsp;ProgressProvider</span><br /></td>
+  <td id="LC47" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;</span><br /></td>
 </tr>
 <tr>
   <td id="L48" class="blob-num js-line-number" data-line-number="48">48</td>
-  <td id="LC48" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;</span><br /></td>
+  <td id="LC48" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Class</span>&nbsp;ProgressProvider</span><br /></td>
 </tr>
 <tr>
   <td id="L49" class="blob-num js-line-number" data-line-number="49">49</td>
-  <td id="LC49" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Properties:&nbsp;Current,&nbsp;Target</span><br /></td>
+  <td id="LC49" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;</span><br /></td>
 </tr>
 <tr>
   <td id="L50" class="blob-num js-line-number" data-line-number="50">50</td>
-  <td id="LC50" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;</span><br /></td>
+  <td id="LC50" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Properties:&nbsp;Current,&nbsp;Target</span><br /></td>
 </tr>
 <tr>
   <td id="L51" class="blob-num js-line-number" data-line-number="51">51</td>
-  <td id="LC51" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Function</span>:&nbsp;[Step],&nbsp;(+2&nbsp;<span class="keyword">Overloads</span>)&nbsp;ETA,&nbsp;<span class="keyword">Step</span>Progress,&nbsp;<span class="keyword">To</span>String</span><br /></td>
+  <td id="LC51" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;</span><br /></td>
 </tr>
 <tr>
   <td id="L52" class="blob-num js-line-number" data-line-number="52">52</td>
-  <td id="LC52" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;</span><br /></td>
+  <td id="LC52" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Const</span>ructor:&nbsp;(+1&nbsp;<span class="keyword">Overloads</span>)&nbsp;<span class="keyword">Sub</span>&nbsp;<span class="keyword">New</span></span><br /></td>
 </tr>
 <tr>
   <td id="L53" class="blob-num js-line-number" data-line-number="53">53</td>
-  <td id="LC53" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Sub</span>:&nbsp;<span class="keyword">New</span></span><br /></td>
+  <td id="LC53" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Function</span>:&nbsp;[Step],&nbsp;(+2&nbsp;<span class="keyword">Overloads</span>)&nbsp;ETA,&nbsp;<span class="keyword">Step</span>Progress,&nbsp;<span class="keyword">To</span>String</span><br /></td>
 </tr>
 <tr>
   <td id="L54" class="blob-num js-line-number" data-line-number="54">54</td>
@@ -1754,4 +1763,23 @@
 </table>
                         </div>
   </body>
+  <script type="text/javascript">
+                        var url_path = "./ProgressBar.html";
+                                              
+	                    var lines = document.getElementsByClassName("js-line-number");
+	
+	                    for (var i = 0; i < lines.length; i++) {
+		                    var line = lines[i];
+		                    var a = document.createElement("a");
+		                    var num = line.getAttribute("data-line-number");
+		                    var id = line.id;
+		
+		                    a.setAttribute("href", url_path + "#" + id);
+		                    a.setAttribute("target", "_self");
+                            a.innerText = num;
+
+		                    line.innerHTML = "";
+		                    line.appendChild(a);
+	                    }
+                        </script>
 </html>

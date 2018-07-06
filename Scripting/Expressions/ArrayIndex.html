@@ -1,5 +1,8 @@
 <html>
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="VisualBasic Programming" />
     <title>Scripting\Expressions\ArrayIndex.vb</title>
     <style type="text/css">
                             
@@ -36,7 +39,8 @@
                                 color: #2b91af;                                
                                 text-align: right;
                                 padding-right: 5px;
-                                border-right-style: inset;
+                                /* border-right-style: inset; 
+                                */
                             }
 
                             .js-file-line .js-line-number {
@@ -46,6 +50,11 @@
                             .js-file-line {
                                 padding-left: 10px;
                             }
+
+                            a:link { text-decoration: none;color: #2b91af}
+　　                        a:active { text-decoration:blink}
+　　                        a:hover { text-decoration:underline;color: #2b91af} 
+　　                        a:visited { text-decoration: none;color: #2b91af}
                         </style>
   </head>
   <body>
@@ -193,7 +202,7 @@
 </tr>
 <tr>
   <td id="L36" class="blob-num js-line-number" data-line-number="36">36</td>
-  <td id="LC36" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;</span><br /></td>
+  <td id="LC36" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Function</span>:&nbsp;<span class="keyword">As</span>Vector,&nbsp;TranslateIndex</span><br /></td>
 </tr>
 <tr>
   <td id="L37" class="blob-num js-line-number" data-line-number="37">37</td>
@@ -510,4 +519,23 @@
 </table>
                         </div>
   </body>
+  <script type="text/javascript">
+                        var url_path = "./ArrayIndex.html";
+                                              
+	                    var lines = document.getElementsByClassName("js-line-number");
+	
+	                    for (var i = 0; i < lines.length; i++) {
+		                    var line = lines[i];
+		                    var a = document.createElement("a");
+		                    var num = line.getAttribute("data-line-number");
+		                    var id = line.id;
+		
+		                    a.setAttribute("href", url_path + "#" + id);
+		                    a.setAttribute("target", "_self");
+                            a.innerText = num;
+
+		                    line.innerHTML = "";
+		                    line.appendChild(a);
+	                    }
+                        </script>
 </html>

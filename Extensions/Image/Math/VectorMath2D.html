@@ -1,6 +1,9 @@
 <html>
   <head>
-    <title>Extensions\Image\Math\VecMath2D.vb</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="VisualBasic Programming" />
+    <title>Extensions\Image\Math\VectorMath2D.vb</title>
     <style type="text/css">
                             
             .vscode {
@@ -36,7 +39,8 @@
                                 color: #2b91af;                                
                                 text-align: right;
                                 padding-right: 5px;
-                                border-right-style: inset;
+                                /* border-right-style: inset; 
+                                */
                             }
 
                             .js-file-line .js-line-number {
@@ -46,6 +50,11 @@
                             .js-file-line {
                                 padding-left: 10px;
                             }
+
+                            a:link { text-decoration: none;color: #2b91af}
+　　                        a:active { text-decoration:blink}
+　　                        a:hover { text-decoration:underline;color: #2b91af} 
+　　                        a:visited { text-decoration: none;color: #2b91af}
                         </style>
   </head>
   <body>
@@ -53,7 +62,7 @@
                             <table class="highlight tab-size js-file-line-container" data-tab-size="8">
   <tbody><tr>
   <td id="L1" class="blob-num js-line-number" data-line-number="1">1</td>
-  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::dacd296a4dcdcebba75e9fb16fa9e583,&nbsp;Microsoft.VisualBasic.Core\Extensions\Image\Math\VecMath2D.vb"</span><br /></td>
+  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::d5b1ce7d4e0a365aa6eb8e8f7ba1b7de,&nbsp;Microsoft.VisualBasic.Core\Extensions\Image\Math\VectorMath2D.vb"</span><br /></td>
 </tr>
 <tr>
   <td id="L2" class="blob-num js-line-number" data-line-number="2">2</td>
@@ -185,7 +194,7 @@
 </tr>
 <tr>
   <td id="L34" class="blob-num js-line-number" data-line-number="34">34</td>
-  <td id="LC34" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Class</span>&nbsp;VecMath2D</span><br /></td>
+  <td id="LC34" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Class</span>&nbsp;VectorMath2D</span><br /></td>
 </tr>
 <tr>
   <td id="L35" class="blob-num js-line-number" data-line-number="35">35</td>
@@ -245,11 +254,11 @@
 </tr>
 <tr>
   <td id="L49" class="blob-num js-line-number" data-line-number="49">49</td>
-  <td id="LC49" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC49" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Class</span>&nbsp;VectorMath2D<br /></td>
 </tr>
 <tr>
   <td id="L50" class="blob-num js-line-number" data-line-number="50">50</td>
-  <td id="LC50" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Class</span>&nbsp;VecMath2D<br /></td>
+  <td id="LC50" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L51" class="blob-num js-line-number" data-line-number="51">51</td>
@@ -305,11 +314,11 @@
 </tr>
 <tr>
   <td id="L64" class="blob-num js-line-number" data-line-number="64">64</td>
-  <td id="LC64" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;d1&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Double</span>&nbsp;=&nbsp;paramVector2D1.length()<br /></td>
+  <td id="LC64" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;d1&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Double</span>&nbsp;=&nbsp;paramVector2D1.Length()<br /></td>
 </tr>
 <tr>
   <td id="L65" class="blob-num js-line-number" data-line-number="65">65</td>
-  <td id="LC65" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;d2&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Double</span>&nbsp;=&nbsp;paramVector2D2.length()<br /></td>
+  <td id="LC65" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;d2&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Double</span>&nbsp;=&nbsp;paramVector2D2.Length()<br /></td>
 </tr>
 <tr>
   <td id="L66" class="blob-num js-line-number" data-line-number="66">66</td>
@@ -942,4 +951,23 @@
 </table>
                         </div>
   </body>
+  <script type="text/javascript">
+                        var url_path = "./VectorMath2D.html";
+                                              
+	                    var lines = document.getElementsByClassName("js-line-number");
+	
+	                    for (var i = 0; i < lines.length; i++) {
+		                    var line = lines[i];
+		                    var a = document.createElement("a");
+		                    var num = line.getAttribute("data-line-number");
+		                    var id = line.id;
+		
+		                    a.setAttribute("href", url_path + "#" + id);
+		                    a.setAttribute("target", "_self");
+                            a.innerText = num;
+
+		                    line.innerHTML = "";
+		                    line.appendChild(a);
+	                    }
+                        </script>
 </html>

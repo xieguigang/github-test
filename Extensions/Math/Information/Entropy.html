@@ -1,5 +1,8 @@
 <html>
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="VisualBasic Programming" />
     <title>Extensions\Math\Information\Entropy.vb</title>
     <style type="text/css">
                             
@@ -36,7 +39,8 @@
                                 color: #2b91af;                                
                                 text-align: right;
                                 padding-right: 5px;
-                                border-right-style: inset;
+                                /* border-right-style: inset; 
+                                */
                             }
 
                             .js-file-line .js-line-number {
@@ -46,6 +50,11 @@
                             .js-file-line {
                                 padding-left: 10px;
                             }
+
+                            a:link { text-decoration: none;color: #2b91af}
+　　                        a:active { text-decoration:blink}
+　　                        a:hover { text-decoration:underline;color: #2b91af} 
+　　                        a:visited { text-decoration: none;color: #2b91af}
                         </style>
   </head>
   <body>
@@ -53,7 +62,7 @@
                             <table class="highlight tab-size js-file-line-container" data-tab-size="8">
   <tbody><tr>
   <td id="L1" class="blob-num js-line-number" data-line-number="1">1</td>
-  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::f460487e3f5a8cf702125a49d7d63423,&nbsp;Microsoft.VisualBasic.Core\Extensions\Math\Information\Entropy.vb"</span><br /></td>
+  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::d08fd8dfce6d983445bbe9711dc16bb2,&nbsp;Microsoft.VisualBasic.Core\Extensions\Math\Information\Entropy.vb"</span><br /></td>
 </tr>
 <tr>
   <td id="L2" class="blob-num js-line-number" data-line-number="2">2</td>
@@ -409,37 +418,60 @@
 </tr>
 <tr>
   <td id="L90" class="blob-num js-line-number" data-line-number="90">90</td>
-  <td id="LC90" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Let</span>&nbsp;ln&nbsp;=&nbsp;Math.Log(prob,&nbsp;newBase:=2)<br /></td>
+  <td id="LC90" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Where&nbsp;prob&nbsp;&gt;&nbsp;0&nbsp;&nbsp;<span class="comment">'&nbsp;因为是求和，所以prob等于零的时候，乘上ln应该也是零的，因为零对求和无影响，所以在这里直接使用where跳过零了</span><br /></td>
 </tr>
 <tr>
   <td id="L91" class="blob-num js-line-number" data-line-number="91">91</td>
-  <td id="LC91" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">In</span>to&nbsp;Sum(prob&nbsp;*&nbsp;ln)<br /></td>
+  <td id="LC91" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Let</span>&nbsp;ln&nbsp;=&nbsp;Math.Log(prob,&nbsp;newBase:=2)<br /></td>
 </tr>
 <tr>
   <td id="L92" class="blob-num js-line-number" data-line-number="92">92</td>
-  <td id="LC92" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;和的负数，注意在这里最后的结果还需要乘以-1</span><br /></td>
+  <td id="LC92" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">In</span>to&nbsp;Sum(prob&nbsp;*&nbsp;ln)<br /></td>
 </tr>
 <tr>
   <td id="L93" class="blob-num js-line-number" data-line-number="93">93</td>
-  <td id="LC93" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;有一个负号</span><br /></td>
+  <td id="LC93" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;和的负数，注意在这里最后的结果还需要乘以-1</span><br /></td>
 </tr>
 <tr>
   <td id="L94" class="blob-num js-line-number" data-line-number="94">94</td>
-  <td id="LC94" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;-entropy<br /></td>
+  <td id="LC94" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;有一个负号</span><br /></td>
 </tr>
 <tr>
   <td id="L95" class="blob-num js-line-number" data-line-number="95">95</td>
-  <td id="LC95" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
+  <td id="LC95" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;-entropy<br /></td>
 </tr>
 <tr>
   <td id="L96" class="blob-num js-line-number" data-line-number="96">96</td>
-  <td id="LC96" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Module</span><br /></td>
+  <td id="LC96" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
 </tr>
 <tr>
   <td id="L97" class="blob-num js-line-number" data-line-number="97">97</td>
-  <td id="LC97" class="blob-code blob-code-inner js-file-line"><span class="keyword">End</span>&nbsp;<span class="keyword">Namespace</span><br /></td>
+  <td id="LC97" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Module</span><br /></td>
+</tr>
+<tr>
+  <td id="L98" class="blob-num js-line-number" data-line-number="98">98</td>
+  <td id="LC98" class="blob-code blob-code-inner js-file-line"><span class="keyword">End</span>&nbsp;<span class="keyword">Namespace</span><br /></td>
 </tr></tbody>
 </table>
                         </div>
   </body>
+  <script type="text/javascript">
+                        var url_path = "./Entropy.html";
+                                              
+	                    var lines = document.getElementsByClassName("js-line-number");
+	
+	                    for (var i = 0; i < lines.length; i++) {
+		                    var line = lines[i];
+		                    var a = document.createElement("a");
+		                    var num = line.getAttribute("data-line-number");
+		                    var id = line.id;
+		
+		                    a.setAttribute("href", url_path + "#" + id);
+		                    a.setAttribute("target", "_self");
+                            a.innerText = num;
+
+		                    line.innerHTML = "";
+		                    line.appendChild(a);
+	                    }
+                        </script>
 </html>

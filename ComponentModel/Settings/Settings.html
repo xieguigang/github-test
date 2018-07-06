@@ -1,5 +1,8 @@
 <html>
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="VisualBasic Programming" />
     <title>ComponentModel\Settings\Settings.vb</title>
     <style type="text/css">
                             
@@ -36,7 +39,8 @@
                                 color: #2b91af;                                
                                 text-align: right;
                                 padding-right: 5px;
-                                border-right-style: inset;
+                                /* border-right-style: inset; 
+                                */
                             }
 
                             .js-file-line .js-line-number {
@@ -46,6 +50,11 @@
                             .js-file-line {
                                 padding-left: 10px;
                             }
+
+                            a:link { text-decoration: none;color: #2b91af}
+　　                        a:active { text-decoration:blink}
+　　                        a:hover { text-decoration:underline;color: #2b91af} 
+　　                        a:visited { text-decoration: none;color: #2b91af}
                         </style>
   </head>
   <body>
@@ -201,15 +210,15 @@
 </tr>
 <tr>
   <td id="L38" class="blob-num js-line-number" data-line-number="38">38</td>
-  <td id="LC38" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Function</span>:&nbsp;__createSave,&nbsp;CreateEmpty,&nbsp;Load,&nbsp;LoadFile</span><br /></td>
+  <td id="LC38" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Const</span>ructor:&nbsp;(+2&nbsp;<span class="keyword">Overloads</span>)&nbsp;<span class="keyword">Sub</span>&nbsp;<span class="keyword">New</span></span><br /></td>
 </tr>
 <tr>
   <td id="L39" class="blob-num js-line-number" data-line-number="39">39</td>
-  <td id="LC39" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;</span><br /></td>
+  <td id="LC39" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Function</span>:&nbsp;__createSave,&nbsp;CreateEmpty,&nbsp;Load,&nbsp;LoadFile</span><br /></td>
 </tr>
 <tr>
   <td id="L40" class="blob-num js-line-number" data-line-number="40">40</td>
-  <td id="LC40" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Sub</span>:&nbsp;(+2&nbsp;<span class="keyword">Overloads</span>)&nbsp;<span class="keyword">New</span></span><br /></td>
+  <td id="LC40" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;</span><br /></td>
 </tr>
 <tr>
   <td id="L41" class="blob-num js-line-number" data-line-number="41">41</td>
@@ -217,365 +226,380 @@
 </tr>
 <tr>
   <td id="L42" class="blob-num js-line-number" data-line-number="42">42</td>
-  <td id="LC42" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;</span><br /></td>
+  <td id="LC42" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;/********************************************************************************/</span><br /></td>
 </tr>
 <tr>
   <td id="L43" class="blob-num js-line-number" data-line-number="43">43</td>
-  <td id="LC43" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;/********************************************************************************/</span><br /></td>
+  <td id="LC43" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L44" class="blob-num js-line-number" data-line-number="44">44</td>
-  <td id="LC44" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC44" class="blob-code blob-code-inner js-file-line">#<span class="keyword">End</span>&nbsp;Region<br /></td>
 </tr>
 <tr>
   <td id="L45" class="blob-num js-line-number" data-line-number="45">45</td>
-  <td id="LC45" class="blob-code blob-code-inner js-file-line">#<span class="keyword">End</span>&nbsp;Region<br /></td>
+  <td id="LC45" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L46" class="blob-num js-line-number" data-line-number="46">46</td>
-  <td id="LC46" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC46" class="blob-code blob-code-inner js-file-line"><span class="keyword">Imports</span>&nbsp;System.Runtime.CompilerServices<br /></td>
 </tr>
 <tr>
   <td id="L47" class="blob-num js-line-number" data-line-number="47">47</td>
-  <td id="LC47" class="blob-code blob-code-inner js-file-line"><span class="keyword">Imports</span>&nbsp;System.Runtime.CompilerServices<br /></td>
+  <td id="LC47" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L48" class="blob-num js-line-number" data-line-number="48">48</td>
-  <td id="LC48" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC48" class="blob-code blob-code-inner js-file-line">#If&nbsp;NET_40&nbsp;=&nbsp;0&nbsp;<span class="keyword">Then</span><br /></td>
 </tr>
 <tr>
   <td id="L49" class="blob-num js-line-number" data-line-number="49">49</td>
-  <td id="LC49" class="blob-code blob-code-inner js-file-line">#If&nbsp;NET_40&nbsp;=&nbsp;0&nbsp;<span class="keyword">Then</span><br /></td>
+  <td id="LC49" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L50" class="blob-num js-line-number" data-line-number="50">50</td>
-  <td id="LC50" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC50" class="blob-code blob-code-inner js-file-line"><span class="keyword">Namespace</span>&nbsp;ComponentModel.Settings<br /></td>
 </tr>
 <tr>
   <td id="L51" class="blob-num js-line-number" data-line-number="51">51</td>
-  <td id="LC51" class="blob-code blob-code-inner js-file-line"><span class="keyword">Namespace</span>&nbsp;ComponentModel.Settings<br /></td>
+  <td id="LC51" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L52" class="blob-num js-line-number" data-line-number="52">52</td>
-  <td id="LC52" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC52" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Class</span>&nbsp;<span class="keyword">Set</span>tings(Of&nbsp;T&nbsp;<span class="keyword">As</span>&nbsp;{New,&nbsp;IProfile})&nbsp;:&nbsp;<span class="keyword">Inherits</span>&nbsp;ConfigEngine<br /></td>
 </tr>
 <tr>
   <td id="L53" class="blob-num js-line-number" data-line-number="53">53</td>
-  <td id="LC53" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Class</span>&nbsp;<span class="keyword">Set</span>tings(Of&nbsp;T&nbsp;<span class="keyword">As</span>&nbsp;{New,&nbsp;IProfile})&nbsp;:&nbsp;<span class="keyword">Inherits</span>&nbsp;ConfigEngine<br /></td>
+  <td id="LC53" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Implements</span>&nbsp;IDisposable<br /></td>
 </tr>
 <tr>
   <td id="L54" class="blob-num js-line-number" data-line-number="54">54</td>
-  <td id="LC54" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Implements</span>&nbsp;IDisposable<br /></td>
+  <td id="LC54" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L55" class="blob-num js-line-number" data-line-number="55">55</td>
-  <td id="LC55" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC55" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L56" class="blob-num js-line-number" data-line-number="56">56</td>
-  <td id="LC56" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
+  <td id="LC56" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;The&nbsp;target&nbsp;object&nbsp;instance&nbsp;that&nbsp;provides&nbsp;the&nbsp;data&nbsp;source&nbsp;for&nbsp;this&nbsp;config&nbsp;engine.</span><br /></td>
 </tr>
 <tr>
   <td id="L57" class="blob-num js-line-number" data-line-number="57">57</td>
-  <td id="LC57" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;The&nbsp;target&nbsp;object&nbsp;instance&nbsp;that&nbsp;provides&nbsp;the&nbsp;data&nbsp;source&nbsp;for&nbsp;this&nbsp;config&nbsp;engine.</span><br /></td>
+  <td id="LC57" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L58" class="blob-num js-line-number" data-line-number="58">58</td>
-  <td id="LC58" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
+  <td id="LC58" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;&lt;/returns&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L59" class="blob-num js-line-number" data-line-number="59">59</td>
-  <td id="LC59" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;&lt;/returns&gt;</span><br /></td>
+  <td id="LC59" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">ReadOnly</span>&nbsp;<span class="keyword">Property</span>&nbsp;<span class="keyword">Set</span>tingsData&nbsp;<span class="keyword">As</span>&nbsp;T<br /></td>
 </tr>
 <tr>
   <td id="L60" class="blob-num js-line-number" data-line-number="60">60</td>
-  <td id="LC60" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">ReadOnly</span>&nbsp;<span class="keyword">Property</span>&nbsp;<span class="keyword">Set</span>tingsData&nbsp;<span class="keyword">As</span>&nbsp;T<br /></td>
+  <td id="LC60" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;MethodImpl(MethodImplOptions.AggressiveInlining)&gt;<br /></td>
 </tr>
 <tr>
   <td id="L61" class="blob-num js-line-number" data-line-number="61">61</td>
-  <td id="LC61" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;MethodImpl(MethodImplOptions.AggressiveInlining)&gt;<br /></td>
+  <td id="LC61" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Get</span><br /></td>
 </tr>
 <tr>
   <td id="L62" class="blob-num js-line-number" data-line-number="62">62</td>
-  <td id="LC62" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Get</span><br /></td>
+  <td id="LC62" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">DirectCast</span>(_SettingsData,&nbsp;T)<br /></td>
 </tr>
 <tr>
   <td id="L63" class="blob-num js-line-number" data-line-number="63">63</td>
-  <td id="LC63" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">DirectCast</span>(_SettingsData,&nbsp;T)<br /></td>
+  <td id="LC63" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Get</span><br /></td>
 </tr>
 <tr>
   <td id="L64" class="blob-num js-line-number" data-line-number="64">64</td>
-  <td id="LC64" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Get</span><br /></td>
+  <td id="LC64" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Property</span><br /></td>
 </tr>
 <tr>
   <td id="L65" class="blob-num js-line-number" data-line-number="65">65</td>
-  <td id="LC65" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Property</span><br /></td>
+  <td id="LC65" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L66" class="blob-num js-line-number" data-line-number="66">66</td>
-  <td id="LC66" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC66" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Sub</span>&nbsp;<span class="keyword">New</span>()<br /></td>
 </tr>
 <tr>
   <td id="L67" class="blob-num js-line-number" data-line-number="67">67</td>
-  <td id="LC67" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Sub</span>&nbsp;<span class="keyword">New</span>()<br /></td>
+  <td id="LC67" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Sub</span><br /></td>
 </tr>
 <tr>
   <td id="L68" class="blob-num js-line-number" data-line-number="68">68</td>
-  <td id="LC68" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Sub</span><br /></td>
+  <td id="LC68" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L69" class="blob-num js-line-number" data-line-number="69">69</td>
-  <td id="LC69" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC69" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L70" class="blob-num js-line-number" data-line-number="70">70</td>
-  <td id="LC70" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
+  <td id="LC70" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;从配置数据的实例对象创建配置映射</span><br /></td>
 </tr>
 <tr>
   <td id="L71" class="blob-num js-line-number" data-line-number="71">71</td>
-  <td id="LC71" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;从配置数据的实例对象创建配置映射</span><br /></td>
+  <td id="LC71" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L72" class="blob-num js-line-number" data-line-number="72">72</td>
-  <td id="LC72" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
+  <td id="LC72" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="config"&gt;&lt;/param&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L73" class="blob-num js-line-number" data-line-number="73">73</td>
-  <td id="LC73" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="config"&gt;&lt;/param&gt;</span><br /></td>
+  <td id="LC73" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span><br /></td>
 </tr>
 <tr>
   <td id="L74" class="blob-num js-line-number" data-line-number="74">74</td>
-  <td id="LC74" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span><br /></td>
+  <td id="LC74" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;MethodImpl(MethodImplOptions.AggressiveInlining)&gt;<br /></td>
 </tr>
 <tr>
   <td id="L75" class="blob-num js-line-number" data-line-number="75">75</td>
-  <td id="LC75" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;MethodImpl(MethodImplOptions.AggressiveInlining)&gt;<br /></td>
+  <td id="LC75" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Sub</span>&nbsp;<span class="keyword">New</span>(config&nbsp;<span class="keyword">As</span>&nbsp;T)<br /></td>
 </tr>
 <tr>
   <td id="L76" class="blob-num js-line-number" data-line-number="76">76</td>
-  <td id="LC76" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Sub</span>&nbsp;<span class="keyword">New</span>(config&nbsp;<span class="keyword">As</span>&nbsp;T)<br /></td>
+  <td id="LC76" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Call</span>&nbsp;<span class="keyword">MyBase</span>.New(config)<br /></td>
 </tr>
 <tr>
   <td id="L77" class="blob-num js-line-number" data-line-number="77">77</td>
-  <td id="LC77" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Call</span>&nbsp;<span class="keyword">MyBase</span>.New(config)<br /></td>
+  <td id="LC77" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Sub</span><br /></td>
 </tr>
 <tr>
   <td id="L78" class="blob-num js-line-number" data-line-number="78">78</td>
-  <td id="LC78" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Sub</span><br /></td>
+  <td id="LC78" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L79" class="blob-num js-line-number" data-line-number="79">79</td>
-  <td id="LC79" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC79" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L80" class="blob-num js-line-number" data-line-number="80">80</td>
-  <td id="LC80" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
+  <td id="LC80" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''</span><br /></td>
 </tr>
 <tr>
   <td id="L81" class="blob-num js-line-number" data-line-number="81">81</td>
-  <td id="LC81" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''</span><br /></td>
+  <td id="LC81" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L82" class="blob-num js-line-number" data-line-number="82">82</td>
-  <td id="LC82" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
+  <td id="LC82" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="XmlFile"&gt;目标配置文件的Xml文件的文件名&lt;/param&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L83" class="blob-num js-line-number" data-line-number="83">83</td>
-  <td id="LC83" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="XmlFile"&gt;目标配置文件的Xml文件的文件名&lt;/param&gt;</span><br /></td>
+  <td id="LC83" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;可以调用的配置项的数目，解析失败则返回0&lt;/returns&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L84" class="blob-num js-line-number" data-line-number="84">84</td>
-  <td id="LC84" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;可以调用的配置项的数目，解析失败则返回0&lt;/returns&gt;</span><br /></td>
+  <td id="LC84" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;remarks&gt;&lt;/remarks&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L85" class="blob-num js-line-number" data-line-number="85">85</td>
-  <td id="LC85" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;remarks&gt;&lt;/remarks&gt;</span><br /></td>
+  <td id="LC85" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Shared</span>&nbsp;<span class="keyword">Function</span>&nbsp;LoadFile(XmlFile&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>,&nbsp;<span class="keyword">Optional</span>&nbsp;CreateSave&nbsp;<span class="keyword">As</span>&nbsp;Action(Of&nbsp;T,&nbsp;<span class="keyword">String</span>)&nbsp;=&nbsp;<span class="keyword">Nothing</span>)&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Set</span>tings(Of&nbsp;T)<br /></td>
 </tr>
 <tr>
   <td id="L86" class="blob-num js-line-number" data-line-number="86">86</td>
-  <td id="LC86" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Shared</span>&nbsp;<span class="keyword">Function</span>&nbsp;LoadFile(XmlFile&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>,&nbsp;<span class="keyword">Optional</span>&nbsp;CreateSave&nbsp;<span class="keyword">As</span>&nbsp;Action(Of&nbsp;T,&nbsp;<span class="keyword">String</span>)&nbsp;=&nbsp;<span class="keyword">Nothing</span>)&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Set</span>tings(Of&nbsp;T)<br /></td>
+  <td id="LC86" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">If</span>&nbsp;<span class="keyword">Not</span>&nbsp;XmlFile.FileExists&nbsp;<span class="keyword">Then</span><br /></td>
 </tr>
 <tr>
   <td id="L87" class="blob-num js-line-number" data-line-number="87">87</td>
-  <td id="LC87" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">If</span>&nbsp;<span class="keyword">Not</span>&nbsp;XmlFile.FileExists&nbsp;<span class="keyword">Then</span><br /></td>
+  <td id="LC87" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;__createSave(XmlFile,&nbsp;CreateSave)<br /></td>
 </tr>
 <tr>
   <td id="L88" class="blob-num js-line-number" data-line-number="88">88</td>
-  <td id="LC88" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;__createSave(XmlFile,&nbsp;CreateSave)<br /></td>
+  <td id="LC88" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Else</span><br /></td>
 </tr>
 <tr>
   <td id="L89" class="blob-num js-line-number" data-line-number="89">89</td>
-  <td id="LC89" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Else</span><br /></td>
+  <td id="LC89" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;File&nbsp;<span class="keyword">As</span>&nbsp;T&nbsp;=&nbsp;XmlFile.LoadXml(Of&nbsp;T)(throwEx:=False)<br /></td>
 </tr>
 <tr>
   <td id="L90" class="blob-num js-line-number" data-line-number="90">90</td>
-  <td id="LC90" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;File&nbsp;<span class="keyword">As</span>&nbsp;T&nbsp;=&nbsp;XmlFile.LoadXml(Of&nbsp;T)(throwEx:=False)<br /></td>
+  <td id="LC90" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L91" class="blob-num js-line-number" data-line-number="91">91</td>
-  <td id="LC91" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC91" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">If</span>&nbsp;File&nbsp;<span class="keyword">Is</span>&nbsp;<span class="keyword">Nothing</span>&nbsp;<span class="keyword">Then</span><br /></td>
 </tr>
 <tr>
   <td id="L92" class="blob-num js-line-number" data-line-number="92">92</td>
-  <td id="LC92" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">If</span>&nbsp;File&nbsp;<span class="keyword">Is</span>&nbsp;<span class="keyword">Nothing</span>&nbsp;<span class="keyword">Then</span><br /></td>
+  <td id="LC92" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;__createSave(XmlFile,&nbsp;CreateSave)<br /></td>
 </tr>
 <tr>
   <td id="L93" class="blob-num js-line-number" data-line-number="93">93</td>
-  <td id="LC93" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;__createSave(XmlFile,&nbsp;CreateSave)<br /></td>
+  <td id="LC93" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Else</span><br /></td>
 </tr>
 <tr>
   <td id="L94" class="blob-num js-line-number" data-line-number="94">94</td>
-  <td id="LC94" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Else</span><br /></td>
+  <td id="LC94" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;Load(Linq.SetValue(Of&nbsp;T).InvokeSet(File,&nbsp;<span class="keyword">NameOf</span>(File.FilePath),&nbsp;XmlFile))<br /></td>
 </tr>
 <tr>
   <td id="L95" class="blob-num js-line-number" data-line-number="95">95</td>
-  <td id="LC95" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;Load(Linq.SetValue(Of&nbsp;T).InvokeSet(File,&nbsp;<span class="keyword">NameOf</span>(File.FilePath),&nbsp;XmlFile))<br /></td>
+  <td id="LC95" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">If</span><br /></td>
 </tr>
 <tr>
   <td id="L96" class="blob-num js-line-number" data-line-number="96">96</td>
-  <td id="LC96" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">If</span><br /></td>
+  <td id="LC96" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">If</span><br /></td>
 </tr>
 <tr>
   <td id="L97" class="blob-num js-line-number" data-line-number="97">97</td>
-  <td id="LC97" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">If</span><br /></td>
+  <td id="LC97" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
 </tr>
 <tr>
   <td id="L98" class="blob-num js-line-number" data-line-number="98">98</td>
-  <td id="LC98" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
+  <td id="LC98" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L99" class="blob-num js-line-number" data-line-number="99">99</td>
-  <td id="LC99" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC99" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Private</span>&nbsp;<span class="keyword">Shared</span>&nbsp;<span class="keyword">Function</span>&nbsp;__createSave(xml&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>,&nbsp;createSave&nbsp;<span class="keyword">As</span>&nbsp;Action(Of&nbsp;T,&nbsp;<span class="keyword">String</span>))&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Set</span>tings(Of&nbsp;T)<br /></td>
 </tr>
 <tr>
   <td id="L100" class="blob-num js-line-number" data-line-number="100">100</td>
-  <td id="LC100" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Private</span>&nbsp;<span class="keyword">Shared</span>&nbsp;<span class="keyword">Function</span>&nbsp;__createSave(xml&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>,&nbsp;createSave&nbsp;<span class="keyword">As</span>&nbsp;Action(Of&nbsp;T,&nbsp;<span class="keyword">String</span>))&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Set</span>tings(Of&nbsp;T)<br /></td>
+  <td id="LC100" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;FileObject&nbsp;<span class="keyword">As</span>&nbsp;T&nbsp;=&nbsp;<span class="keyword">DirectCast</span>(Activator.CreateInstance(Of&nbsp;T)(),&nbsp;T)<br /></td>
 </tr>
 <tr>
   <td id="L101" class="blob-num js-line-number" data-line-number="101">101</td>
-  <td id="LC101" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;FileObject&nbsp;<span class="keyword">As</span>&nbsp;T&nbsp;=&nbsp;<span class="keyword">DirectCast</span>(Activator.CreateInstance(Of&nbsp;T)(),&nbsp;T)<br /></td>
+  <td id="LC101" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FileObject.FilePath&nbsp;=&nbsp;xml<br /></td>
 </tr>
 <tr>
   <td id="L102" class="blob-num js-line-number" data-line-number="102">102</td>
-  <td id="LC102" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FileObject.FilePath&nbsp;=&nbsp;xml<br /></td>
+  <td id="LC102" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">If</span>&nbsp;<span class="keyword">Not</span>&nbsp;createSave&nbsp;<span class="keyword">Is</span>&nbsp;<span class="keyword">Nothing</span>&nbsp;<span class="keyword">Then</span><br /></td>
 </tr>
 <tr>
   <td id="L103" class="blob-num js-line-number" data-line-number="103">103</td>
-  <td id="LC103" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">If</span>&nbsp;<span class="keyword">Not</span>&nbsp;createSave&nbsp;<span class="keyword">Is</span>&nbsp;<span class="keyword">Nothing</span>&nbsp;<span class="keyword">Then</span><br /></td>
+  <td id="LC103" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Call</span>&nbsp;createSave(FileObject,&nbsp;xml)<br /></td>
 </tr>
 <tr>
   <td id="L104" class="blob-num js-line-number" data-line-number="104">104</td>
-  <td id="LC104" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Call</span>&nbsp;createSave(FileObject,&nbsp;xml)<br /></td>
+  <td id="LC104" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">If</span><br /></td>
 </tr>
 <tr>
   <td id="L105" class="blob-num js-line-number" data-line-number="105">105</td>
-  <td id="LC105" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">If</span><br /></td>
+  <td id="LC105" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;Load(Data:=FileObject)<br /></td>
 </tr>
 <tr>
   <td id="L106" class="blob-num js-line-number" data-line-number="106">106</td>
-  <td id="LC106" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;Load(Data:=FileObject)<br /></td>
+  <td id="LC106" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
 </tr>
 <tr>
   <td id="L107" class="blob-num js-line-number" data-line-number="107">107</td>
-  <td id="LC107" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
+  <td id="LC107" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L108" class="blob-num js-line-number" data-line-number="108">108</td>
-  <td id="LC108" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC108" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L109" class="blob-num js-line-number" data-line-number="109">109</td>
-  <td id="LC109" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
+  <td id="LC109" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;使用&lt;see&nbsp;cref="ProfileItem"/&gt;来标记想要作为变量的属性</span><br /></td>
 </tr>
 <tr>
   <td id="L110" class="blob-num js-line-number" data-line-number="110">110</td>
-  <td id="LC110" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;使用&lt;see&nbsp;cref="ProfileItem"/&gt;来标记想要作为变量的属性</span><br /></td>
+  <td id="LC110" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L111" class="blob-num js-line-number" data-line-number="111">111</td>
-  <td id="LC111" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
+  <td id="LC111" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="Data"&gt;&lt;/param&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L112" class="blob-num js-line-number" data-line-number="112">112</td>
-  <td id="LC112" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="Data"&gt;&lt;/param&gt;</span><br /></td>
+  <td id="LC112" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;&lt;/returns&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L113" class="blob-num js-line-number" data-line-number="113">113</td>
-  <td id="LC113" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;&lt;/returns&gt;</span><br /></td>
+  <td id="LC113" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span><br /></td>
 </tr>
 <tr>
   <td id="L114" class="blob-num js-line-number" data-line-number="114">114</td>
-  <td id="LC114" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span><br /></td>
+  <td id="LC114" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;MethodImpl(MethodImplOptions.AggressiveInlining)&gt;<br /></td>
 </tr>
 <tr>
   <td id="L115" class="blob-num js-line-number" data-line-number="115">115</td>
-  <td id="LC115" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;MethodImpl(MethodImplOptions.AggressiveInlining)&gt;<br /></td>
+  <td id="LC115" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Overloads</span>&nbsp;<span class="keyword">Shared</span>&nbsp;<span class="keyword">Function</span>&nbsp;Load(Data&nbsp;<span class="keyword">As</span>&nbsp;T)&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Set</span>tings(Of&nbsp;T)<br /></td>
 </tr>
 <tr>
   <td id="L116" class="blob-num js-line-number" data-line-number="116">116</td>
-  <td id="LC116" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Overloads</span>&nbsp;<span class="keyword">Shared</span>&nbsp;<span class="keyword">Function</span>&nbsp;Load(Data&nbsp;<span class="keyword">As</span>&nbsp;T)&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Set</span>tings(Of&nbsp;T)<br /></td>
+  <td id="LC116" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">New</span>&nbsp;<span class="keyword">Set</span>tings(Of&nbsp;T)(Data)<br /></td>
 </tr>
 <tr>
   <td id="L117" class="blob-num js-line-number" data-line-number="117">117</td>
-  <td id="LC117" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">New</span>&nbsp;<span class="keyword">Set</span>tings(Of&nbsp;T)(Data)<br /></td>
+  <td id="LC117" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
 </tr>
 <tr>
   <td id="L118" class="blob-num js-line-number" data-line-number="118">118</td>
-  <td id="LC118" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
+  <td id="LC118" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L119" class="blob-num js-line-number" data-line-number="119">119</td>
-  <td id="LC119" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC119" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;MethodImpl(MethodImplOptions.AggressiveInlining)&gt;<br /></td>
 </tr>
 <tr>
   <td id="L120" class="blob-num js-line-number" data-line-number="120">120</td>
-  <td id="LC120" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;MethodImpl(MethodImplOptions.AggressiveInlining)&gt;<br /></td>
+  <td id="LC120" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Shared</span>&nbsp;<span class="keyword">Function</span>&nbsp;CreateEmpty()&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Set</span>tings(Of&nbsp;T)<br /></td>
 </tr>
 <tr>
   <td id="L121" class="blob-num js-line-number" data-line-number="121">121</td>
-  <td id="LC121" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Shared</span>&nbsp;<span class="keyword">Function</span>&nbsp;CreateEmpty()&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Set</span>tings(Of&nbsp;T)<br /></td>
+  <td id="LC121" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">New</span>&nbsp;<span class="keyword">Set</span>tings(Of&nbsp;T)(Activator.CreateInstance(Of&nbsp;T))<br /></td>
 </tr>
 <tr>
   <td id="L122" class="blob-num js-line-number" data-line-number="122">122</td>
-  <td id="LC122" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">New</span>&nbsp;<span class="keyword">Set</span>tings(Of&nbsp;T)(Activator.CreateInstance(Of&nbsp;T))<br /></td>
+  <td id="LC122" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
 </tr>
 <tr>
   <td id="L123" class="blob-num js-line-number" data-line-number="123">123</td>
-  <td id="LC123" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
+  <td id="LC123" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L124" class="blob-num js-line-number" data-line-number="124">124</td>
-  <td id="LC124" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC124" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;MethodImpl(MethodImplOptions.AggressiveInlining)&gt;<br /></td>
 </tr>
 <tr>
   <td id="L125" class="blob-num js-line-number" data-line-number="125">125</td>
-  <td id="LC125" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;MethodImpl(MethodImplOptions.AggressiveInlining)&gt;<br /></td>
+  <td id="LC125" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Overloads</span>&nbsp;<span class="keyword">Shared</span>&nbsp;<span class="keyword">Narrowing</span>&nbsp;<span class="keyword">Operator</span>&nbsp;<span class="keyword">CType</span>(Settings&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Set</span>tings(Of&nbsp;T))&nbsp;<span class="keyword">As</span>&nbsp;T<br /></td>
 </tr>
 <tr>
   <td id="L126" class="blob-num js-line-number" data-line-number="126">126</td>
-  <td id="LC126" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Overloads</span>&nbsp;<span class="keyword">Shared</span>&nbsp;<span class="keyword">Narrowing</span>&nbsp;<span class="keyword">Operator</span>&nbsp;<span class="keyword">CType</span>(Settings&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Set</span>tings(Of&nbsp;T))&nbsp;<span class="keyword">As</span>&nbsp;T<br /></td>
+  <td id="LC126" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">Set</span>tings.SettingsData<br /></td>
 </tr>
 <tr>
   <td id="L127" class="blob-num js-line-number" data-line-number="127">127</td>
-  <td id="LC127" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">Set</span>tings.SettingsData<br /></td>
+  <td id="LC127" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Operator</span><br /></td>
 </tr>
 <tr>
   <td id="L128" class="blob-num js-line-number" data-line-number="128">128</td>
-  <td id="LC128" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Operator</span><br /></td>
+  <td id="LC128" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Class</span><br /></td>
 </tr>
 <tr>
   <td id="L129" class="blob-num js-line-number" data-line-number="129">129</td>
-  <td id="LC129" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Class</span><br /></td>
+  <td id="LC129" class="blob-code blob-code-inner js-file-line"><span class="keyword">End</span>&nbsp;<span class="keyword">Namespace</span><br /></td>
 </tr>
 <tr>
   <td id="L130" class="blob-num js-line-number" data-line-number="130">130</td>
-  <td id="LC130" class="blob-code blob-code-inner js-file-line"><span class="keyword">End</span>&nbsp;<span class="keyword">Namespace</span><br /></td>
-</tr>
-<tr>
-  <td id="L131" class="blob-num js-line-number" data-line-number="131">131</td>
-  <td id="LC131" class="blob-code blob-code-inner js-file-line">#<span class="keyword">End</span>&nbsp;<span class="keyword">If</span><br /></td>
+  <td id="LC130" class="blob-code blob-code-inner js-file-line">#<span class="keyword">End</span>&nbsp;<span class="keyword">If</span><br /></td>
 </tr></tbody>
 </table>
                         </div>
   </body>
+  <script type="text/javascript">
+                        var url_path = "./Settings.html";
+                                              
+	                    var lines = document.getElementsByClassName("js-line-number");
+	
+	                    for (var i = 0; i < lines.length; i++) {
+		                    var line = lines[i];
+		                    var a = document.createElement("a");
+		                    var num = line.getAttribute("data-line-number");
+		                    var id = line.id;
+		
+		                    a.setAttribute("href", url_path + "#" + id);
+		                    a.setAttribute("target", "_self");
+                            a.innerText = num;
+
+		                    line.innerHTML = "";
+		                    line.appendChild(a);
+	                    }
+                        </script>
 </html>

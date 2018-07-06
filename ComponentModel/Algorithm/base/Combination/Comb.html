@@ -1,5 +1,8 @@
 <html>
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="VisualBasic Programming" />
     <title>ComponentModel\Algorithm\base\Combination\Comb.vb</title>
     <style type="text/css">
                             
@@ -36,7 +39,8 @@
                                 color: #2b91af;                                
                                 text-align: right;
                                 padding-right: 5px;
-                                border-right-style: inset;
+                                /* border-right-style: inset; 
+                                */
                             }
 
                             .js-file-line .js-line-number {
@@ -46,6 +50,11 @@
                             .js-file-line {
                                 padding-left: 10px;
                             }
+
+                            a:link { text-decoration: none;color: #2b91af}
+　　                        a:active { text-decoration:blink}
+　　                        a:hover { text-decoration:underline;color: #2b91af} 
+　　                        a:visited { text-decoration: none;color: #2b91af}
                         </style>
   </head>
   <body>
@@ -201,15 +210,15 @@
 </tr>
 <tr>
   <td id="L38" class="blob-num js-line-number" data-line-number="38">38</td>
-  <td id="LC38" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Function</span>:&nbsp;__internalQuery,&nbsp;CreateCompleteObjectPairs,&nbsp;CreateObject,&nbsp;<span class="keyword">Get</span>ObjectPair,&nbsp;<span class="keyword">To</span>String</span><br /></td>
+  <td id="LC38" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Const</span>ructor:&nbsp;(+1&nbsp;<span class="keyword">Overloads</span>)&nbsp;<span class="keyword">Sub</span>&nbsp;<span class="keyword">New</span></span><br /></td>
 </tr>
 <tr>
   <td id="L39" class="blob-num js-line-number" data-line-number="39">39</td>
-  <td id="LC39" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;</span><br /></td>
+  <td id="LC39" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Function</span>:&nbsp;__internalQuery,&nbsp;CreateCompleteObjectPairs,&nbsp;CreateObject,&nbsp;<span class="keyword">Get</span>ObjectPair,&nbsp;<span class="keyword">To</span>String</span><br /></td>
 </tr>
 <tr>
   <td id="L40" class="blob-num js-line-number" data-line-number="40">40</td>
-  <td id="LC40" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Sub</span>:&nbsp;<span class="keyword">New</span></span><br /></td>
+  <td id="LC40" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;</span><br /></td>
 </tr>
 <tr>
   <td id="L41" class="blob-num js-line-number" data-line-number="41">41</td>
@@ -217,529 +226,544 @@
 </tr>
 <tr>
   <td id="L42" class="blob-num js-line-number" data-line-number="42">42</td>
-  <td id="LC42" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;</span><br /></td>
+  <td id="LC42" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;/********************************************************************************/</span><br /></td>
 </tr>
 <tr>
   <td id="L43" class="blob-num js-line-number" data-line-number="43">43</td>
-  <td id="LC43" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;/********************************************************************************/</span><br /></td>
+  <td id="LC43" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L44" class="blob-num js-line-number" data-line-number="44">44</td>
-  <td id="LC44" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC44" class="blob-code blob-code-inner js-file-line">#<span class="keyword">End</span>&nbsp;Region<br /></td>
 </tr>
 <tr>
   <td id="L45" class="blob-num js-line-number" data-line-number="45">45</td>
-  <td id="LC45" class="blob-code blob-code-inner js-file-line">#<span class="keyword">End</span>&nbsp;Region<br /></td>
+  <td id="LC45" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L46" class="blob-num js-line-number" data-line-number="46">46</td>
-  <td id="LC46" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC46" class="blob-code blob-code-inner js-file-line"><span class="keyword">Imports</span>&nbsp;Microsoft.VisualBasic.Language<br /></td>
 </tr>
 <tr>
   <td id="L47" class="blob-num js-line-number" data-line-number="47">47</td>
-  <td id="LC47" class="blob-code blob-code-inner js-file-line"><span class="keyword">Imports</span>&nbsp;Microsoft.VisualBasic.Language<br /></td>
+  <td id="LC47" class="blob-code blob-code-inner js-file-line"><span class="keyword">Imports</span>&nbsp;Microsoft.VisualBasic.Linq<br /></td>
 </tr>
 <tr>
   <td id="L48" class="blob-num js-line-number" data-line-number="48">48</td>
-  <td id="LC48" class="blob-code blob-code-inner js-file-line"><span class="keyword">Imports</span>&nbsp;Microsoft.VisualBasic.Linq<br /></td>
+  <td id="LC48" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L49" class="blob-num js-line-number" data-line-number="49">49</td>
-  <td id="LC49" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC49" class="blob-code blob-code-inner js-file-line"><span class="keyword">Namespace</span>&nbsp;ComponentModel.Algorithm.base<br /></td>
 </tr>
 <tr>
   <td id="L50" class="blob-num js-line-number" data-line-number="50">50</td>
-  <td id="LC50" class="blob-code blob-code-inner js-file-line"><span class="keyword">Namespace</span>&nbsp;ComponentModel.Algorithm.base<br /></td>
+  <td id="LC50" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L51" class="blob-num js-line-number" data-line-number="51">51</td>
-  <td id="LC51" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC51" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L52" class="blob-num js-line-number" data-line-number="52">52</td>
-  <td id="LC52" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
+  <td id="LC52" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;对象类型的组合输出工具，即目标类型的集合之中的元素两两组合配对</span><br /></td>
 </tr>
 <tr>
   <td id="L53" class="blob-num js-line-number" data-line-number="53">53</td>
-  <td id="LC53" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;对象类型的组合输出工具，即目标类型的集合之中的元素两两组合配对</span><br /></td>
+  <td id="LC53" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L54" class="blob-num js-line-number" data-line-number="54">54</td>
-  <td id="LC54" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
+  <td id="LC54" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;remarks&gt;&lt;/remarks&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L55" class="blob-num js-line-number" data-line-number="55">55</td>
-  <td id="LC55" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;remarks&gt;&lt;/remarks&gt;</span><br /></td>
+  <td id="LC55" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Class</span>&nbsp;Comb(Of&nbsp;T)<br /></td>
 </tr>
 <tr>
   <td id="L56" class="blob-num js-line-number" data-line-number="56">56</td>
-  <td id="LC56" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Class</span>&nbsp;Comb(Of&nbsp;T)<br /></td>
+  <td id="LC56" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L57" class="blob-num js-line-number" data-line-number="57">57</td>
-  <td id="LC57" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC57" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;source&nbsp;<span class="keyword">As</span>&nbsp;List(Of&nbsp;T)<br /></td>
 </tr>
 <tr>
   <td id="L58" class="blob-num js-line-number" data-line-number="58">58</td>
-  <td id="LC58" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;source&nbsp;<span class="keyword">As</span>&nbsp;List(Of&nbsp;T)<br /></td>
+  <td id="LC58" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;p&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Integer</span>&nbsp;=&nbsp;1<br /></td>
 </tr>
 <tr>
   <td id="L59" class="blob-num js-line-number" data-line-number="59">59</td>
-  <td id="LC59" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;p&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Integer</span>&nbsp;=&nbsp;1<br /></td>
+  <td id="LC59" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L60" class="blob-num js-line-number" data-line-number="60">60</td>
-  <td id="LC60" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC60" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L61" class="blob-num js-line-number" data-line-number="61">61</td>
-  <td id="LC61" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
+  <td id="LC61" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;对象列表是否已经完全组合输出</span><br /></td>
 </tr>
 <tr>
   <td id="L62" class="blob-num js-line-number" data-line-number="62">62</td>
-  <td id="LC62" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;对象列表是否已经完全组合输出</span><br /></td>
+  <td id="LC62" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L63" class="blob-num js-line-number" data-line-number="63">63</td>
-  <td id="LC63" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
+  <td id="LC63" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;value&gt;&lt;/value&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L64" class="blob-num js-line-number" data-line-number="64">64</td>
-  <td id="LC64" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;value&gt;&lt;/value&gt;</span><br /></td>
+  <td id="LC64" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;&lt;/returns&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L65" class="blob-num js-line-number" data-line-number="65">65</td>
-  <td id="LC65" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;&lt;/returns&gt;</span><br /></td>
+  <td id="LC65" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;remarks&gt;&lt;/remarks&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L66" class="blob-num js-line-number" data-line-number="66">66</td>
-  <td id="LC66" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;remarks&gt;&lt;/remarks&gt;</span><br /></td>
+  <td id="LC66" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">ReadOnly</span>&nbsp;<span class="keyword">Property</span>&nbsp;EOL&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Boolean</span><br /></td>
 </tr>
 <tr>
   <td id="L67" class="blob-num js-line-number" data-line-number="67">67</td>
-  <td id="LC67" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">ReadOnly</span>&nbsp;<span class="keyword">Property</span>&nbsp;EOL&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Boolean</span><br /></td>
+  <td id="LC67" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Get</span><br /></td>
 </tr>
 <tr>
   <td id="L68" class="blob-num js-line-number" data-line-number="68">68</td>
-  <td id="LC68" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Get</span><br /></td>
+  <td id="LC68" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">Not</span>&nbsp;source.Count&nbsp;&gt;=&nbsp;2<br /></td>
 </tr>
 <tr>
   <td id="L69" class="blob-num js-line-number" data-line-number="69">69</td>
-  <td id="LC69" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">Not</span>&nbsp;source.Count&nbsp;&gt;=&nbsp;2<br /></td>
+  <td id="LC69" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Get</span><br /></td>
 </tr>
 <tr>
   <td id="L70" class="blob-num js-line-number" data-line-number="70">70</td>
-  <td id="LC70" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Get</span><br /></td>
+  <td id="LC70" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Property</span><br /></td>
 </tr>
 <tr>
   <td id="L71" class="blob-num js-line-number" data-line-number="71">71</td>
-  <td id="LC71" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Property</span><br /></td>
+  <td id="LC71" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L72" class="blob-num js-line-number" data-line-number="72">72</td>
-  <td id="LC72" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC72" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L73" class="blob-num js-line-number" data-line-number="73">73</td>
-  <td id="LC73" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
+  <td id="LC73" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;是否已经开始读取新的一行数据</span><br /></td>
 </tr>
 <tr>
   <td id="L74" class="blob-num js-line-number" data-line-number="74">74</td>
-  <td id="LC74" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;是否已经开始读取新的一行数据</span><br /></td>
+  <td id="LC74" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L75" class="blob-num js-line-number" data-line-number="75">75</td>
-  <td id="LC75" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
+  <td id="LC75" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;value&gt;&lt;/value&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L76" class="blob-num js-line-number" data-line-number="76">76</td>
-  <td id="LC76" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;value&gt;&lt;/value&gt;</span><br /></td>
+  <td id="LC76" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;&lt;/returns&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L77" class="blob-num js-line-number" data-line-number="77">77</td>
-  <td id="LC77" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;&lt;/returns&gt;</span><br /></td>
+  <td id="LC77" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;remarks&gt;&lt;/remarks&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L78" class="blob-num js-line-number" data-line-number="78">78</td>
-  <td id="LC78" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;remarks&gt;&lt;/remarks&gt;</span><br /></td>
+  <td id="LC78" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">ReadOnly</span>&nbsp;<span class="keyword">Property</span>&nbsp;<span class="keyword">New</span>Line&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Boolean</span>&nbsp;=&nbsp;<span class="keyword">True</span><br /></td>
 </tr>
 <tr>
   <td id="L79" class="blob-num js-line-number" data-line-number="79">79</td>
-  <td id="LC79" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">ReadOnly</span>&nbsp;<span class="keyword">Property</span>&nbsp;<span class="keyword">New</span>Line&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Boolean</span>&nbsp;=&nbsp;<span class="keyword">True</span><br /></td>
+  <td id="LC79" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L80" class="blob-num js-line-number" data-line-number="80">80</td>
-  <td id="LC80" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC80" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">ReadOnly</span>&nbsp;<span class="keyword">Property</span>&nbsp;CombList&nbsp;<span class="keyword">As</span>&nbsp;Tuple(Of&nbsp;T,&nbsp;T)()()<br /></td>
 </tr>
 <tr>
   <td id="L81" class="blob-num js-line-number" data-line-number="81">81</td>
-  <td id="LC81" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">ReadOnly</span>&nbsp;<span class="keyword">Property</span>&nbsp;CombList&nbsp;<span class="keyword">As</span>&nbsp;Tuple(Of&nbsp;T,&nbsp;T)()()<br /></td>
+  <td id="LC81" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Get</span><br /></td>
 </tr>
 <tr>
   <td id="L82" class="blob-num js-line-number" data-line-number="82">82</td>
-  <td id="LC82" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Get</span><br /></td>
+  <td id="LC82" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;out&nbsp;<span class="keyword">As</span>&nbsp;Tuple(Of&nbsp;T,&nbsp;T)()()&nbsp;=&nbsp;__internalQuery.ToArray<br /></td>
 </tr>
 <tr>
   <td id="L83" class="blob-num js-line-number" data-line-number="83">83</td>
-  <td id="LC83" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;out&nbsp;<span class="keyword">As</span>&nbsp;Tuple(Of&nbsp;T,&nbsp;T)()()&nbsp;=&nbsp;__internalQuery.ToArray<br /></td>
+  <td id="LC83" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;out<br /></td>
 </tr>
 <tr>
   <td id="L84" class="blob-num js-line-number" data-line-number="84">84</td>
-  <td id="LC84" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;out<br /></td>
+  <td id="LC84" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Get</span><br /></td>
 </tr>
 <tr>
   <td id="L85" class="blob-num js-line-number" data-line-number="85">85</td>
-  <td id="LC85" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Get</span><br /></td>
+  <td id="LC85" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Property</span><br /></td>
 </tr>
 <tr>
   <td id="L86" class="blob-num js-line-number" data-line-number="86">86</td>
-  <td id="LC86" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Property</span><br /></td>
+  <td id="LC86" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L87" class="blob-num js-line-number" data-line-number="87">87</td>
-  <td id="LC87" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC87" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Private</span>&nbsp;<span class="keyword">Function</span>&nbsp;__internalQuery()&nbsp;<span class="keyword">As</span>&nbsp;IEnumerable(Of&nbsp;Tuple(Of&nbsp;T,&nbsp;T)())<br /></td>
 </tr>
 <tr>
   <td id="L88" class="blob-num js-line-number" data-line-number="88">88</td>
-  <td id="LC88" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Private</span>&nbsp;<span class="keyword">Function</span>&nbsp;__internalQuery()&nbsp;<span class="keyword">As</span>&nbsp;IEnumerable(Of&nbsp;Tuple(Of&nbsp;T,&nbsp;T)())<br /></td>
+  <td id="LC88" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;From&nbsp;index&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Integer</span><br /></td>
 </tr>
 <tr>
   <td id="L89" class="blob-num js-line-number" data-line-number="89">89</td>
-  <td id="LC89" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;From&nbsp;index&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Integer</span><br /></td>
+  <td id="LC89" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">In</span>&nbsp;source.Sequence&nbsp;_<br /></td>
 </tr>
 <tr>
   <td id="L90" class="blob-num js-line-number" data-line-number="90">90</td>
-  <td id="LC90" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">In</span>&nbsp;source.Sequence&nbsp;_<br /></td>
+  <td id="LC90" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.Take(source.Count&nbsp;-&nbsp;1)&nbsp;_<br /></td>
 </tr>
 <tr>
   <td id="L91" class="blob-num js-line-number" data-line-number="91">91</td>
-  <td id="LC91" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.Take(source.Count&nbsp;-&nbsp;1)&nbsp;_<br /></td>
+  <td id="LC91" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.AsParallel<br /></td>
 </tr>
 <tr>
   <td id="L92" class="blob-num js-line-number" data-line-number="92">92</td>
-  <td id="LC92" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.AsParallel<br /></td>
+  <td id="LC92" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Let</span>&nbsp;combTuples&nbsp;=&nbsp;{<br /></td>
 </tr>
 <tr>
   <td id="L93" class="blob-num js-line-number" data-line-number="93">93</td>
-  <td id="LC93" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Let</span>&nbsp;combTuples&nbsp;=&nbsp;{<br /></td>
+  <td id="LC93" class="blob-code blob-code-inner js-file-line">&nbsp;_<br /></td>
 </tr>
 <tr>
   <td id="L94" class="blob-num js-line-number" data-line-number="94">94</td>
-  <td id="LC94" class="blob-code blob-code-inner js-file-line">&nbsp;_<br /></td>
+  <td id="LC94" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From&nbsp;offset&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Integer</span><br /></td>
 </tr>
 <tr>
   <td id="L95" class="blob-num js-line-number" data-line-number="95">95</td>
-  <td id="LC95" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From&nbsp;offset&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Integer</span><br /></td>
+  <td id="LC95" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">In</span>&nbsp;source.Skip(index&nbsp;+&nbsp;1).Sequence<br /></td>
 </tr>
 <tr>
   <td id="L96" class="blob-num js-line-number" data-line-number="96">96</td>
-  <td id="LC96" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">In</span>&nbsp;source.Skip(index&nbsp;+&nbsp;1).Sequence<br /></td>
+  <td id="LC96" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Let</span>&nbsp;b&nbsp;=&nbsp;index&nbsp;+&nbsp;1<br /></td>
 </tr>
 <tr>
   <td id="L97" class="blob-num js-line-number" data-line-number="97">97</td>
-  <td id="LC97" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Let</span>&nbsp;b&nbsp;=&nbsp;index&nbsp;+&nbsp;1<br /></td>
+  <td id="LC97" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Select</span>&nbsp;<span class="keyword">New</span>&nbsp;Tuple(Of&nbsp;T,&nbsp;T)(source(index),&nbsp;source(b&nbsp;+&nbsp;offset))<br /></td>
 </tr>
 <tr>
   <td id="L98" class="blob-num js-line-number" data-line-number="98">98</td>
-  <td id="LC98" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Select</span>&nbsp;<span class="keyword">New</span>&nbsp;Tuple(Of&nbsp;T,&nbsp;T)(source(index),&nbsp;source(b&nbsp;+&nbsp;offset))<br /></td>
+  <td id="LC98" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></td>
 </tr>
 <tr>
   <td id="L99" class="blob-num js-line-number" data-line-number="99">99</td>
-  <td id="LC99" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></td>
+  <td id="LC99" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Select</span>&nbsp;array&nbsp;=&nbsp;combTuples&nbsp;_<br /></td>
 </tr>
 <tr>
   <td id="L100" class="blob-num js-line-number" data-line-number="100">100</td>
-  <td id="LC100" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Select</span>&nbsp;array&nbsp;=&nbsp;combTuples&nbsp;_<br /></td>
+  <td id="LC100" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.IteratesALL&nbsp;_<br /></td>
 </tr>
 <tr>
   <td id="L101" class="blob-num js-line-number" data-line-number="101">101</td>
-  <td id="LC101" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.IteratesALL&nbsp;_<br /></td>
+  <td id="LC101" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.ToArray<br /></td>
 </tr>
 <tr>
   <td id="L102" class="blob-num js-line-number" data-line-number="102">102</td>
-  <td id="LC102" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.ToArray<br /></td>
+  <td id="LC102" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Or</span>der&nbsp;By&nbsp;array.Length&nbsp;Descending<br /></td>
 </tr>
 <tr>
   <td id="L103" class="blob-num js-line-number" data-line-number="103">103</td>
-  <td id="LC103" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Or</span>der&nbsp;By&nbsp;array.Length&nbsp;Descending<br /></td>
+  <td id="LC103" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
 </tr>
 <tr>
   <td id="L104" class="blob-num js-line-number" data-line-number="104">104</td>
-  <td id="LC104" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
+  <td id="LC104" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L105" class="blob-num js-line-number" data-line-number="105">105</td>
-  <td id="LC105" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC105" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Function</span>&nbsp;<span class="keyword">Get</span>ObjectPair()&nbsp;<span class="keyword">As</span>&nbsp;(T,&nbsp;T)<br /></td>
 </tr>
 <tr>
   <td id="L106" class="blob-num js-line-number" data-line-number="106">106</td>
-  <td id="LC106" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Function</span>&nbsp;<span class="keyword">Get</span>ObjectPair()&nbsp;<span class="keyword">As</span>&nbsp;(T,&nbsp;T)<br /></td>
+  <td id="LC106" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">If</span>&nbsp;source.Count&nbsp;=&nbsp;1&nbsp;<span class="keyword">Then</span><br /></td>
 </tr>
 <tr>
   <td id="L107" class="blob-num js-line-number" data-line-number="107">107</td>
-  <td id="LC107" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">If</span>&nbsp;source.Count&nbsp;=&nbsp;1&nbsp;<span class="keyword">Then</span><br /></td>
+  <td id="LC107" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">Nothing</span><br /></td>
 </tr>
 <tr>
   <td id="L108" class="blob-num js-line-number" data-line-number="108">108</td>
-  <td id="LC108" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">Nothing</span><br /></td>
+  <td id="LC108" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">If</span><br /></td>
 </tr>
 <tr>
   <td id="L109" class="blob-num js-line-number" data-line-number="109">109</td>
-  <td id="LC109" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">If</span><br /></td>
+  <td id="LC109" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L110" class="blob-num js-line-number" data-line-number="110">110</td>
-  <td id="LC110" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC110" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">If</span>&nbsp;p&nbsp;&lt;&nbsp;source.Count&nbsp;<span class="keyword">Then</span><br /></td>
 </tr>
 <tr>
   <td id="L111" class="blob-num js-line-number" data-line-number="111">111</td>
-  <td id="LC111" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">If</span>&nbsp;p&nbsp;&lt;&nbsp;source.Count&nbsp;<span class="keyword">Then</span><br /></td>
+  <td id="LC111" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;o&nbsp;<span class="keyword">As</span>&nbsp;T&nbsp;=&nbsp;source(p)<br /></td>
 </tr>
 <tr>
   <td id="L112" class="blob-num js-line-number" data-line-number="112">112</td>
-  <td id="LC112" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;o&nbsp;<span class="keyword">As</span>&nbsp;T&nbsp;=&nbsp;source(p)<br /></td>
+  <td id="LC112" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_NewLine&nbsp;=&nbsp;<span class="keyword">False</span><br /></td>
 </tr>
 <tr>
   <td id="L113" class="blob-num js-line-number" data-line-number="113">113</td>
-  <td id="LC113" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_NewLine&nbsp;=&nbsp;<span class="keyword">False</span><br /></td>
+  <td id="LC113" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p&nbsp;+=&nbsp;1<br /></td>
 </tr>
 <tr>
   <td id="L114" class="blob-num js-line-number" data-line-number="114">114</td>
-  <td id="LC114" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p&nbsp;+=&nbsp;1<br /></td>
+  <td id="LC114" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;(source(0),&nbsp;o)<br /></td>
 </tr>
 <tr>
   <td id="L115" class="blob-num js-line-number" data-line-number="115">115</td>
-  <td id="LC115" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;(source(0),&nbsp;o)<br /></td>
+  <td id="LC115" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Else</span><br /></td>
 </tr>
 <tr>
   <td id="L116" class="blob-num js-line-number" data-line-number="116">116</td>
-  <td id="LC116" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Else</span><br /></td>
+  <td id="LC116" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;source.RemoveAt(0)<br /></td>
 </tr>
 <tr>
   <td id="L117" class="blob-num js-line-number" data-line-number="117">117</td>
-  <td id="LC117" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;source.RemoveAt(0)<br /></td>
+  <td id="LC117" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p&nbsp;=&nbsp;1<br /></td>
 </tr>
 <tr>
   <td id="L118" class="blob-num js-line-number" data-line-number="118">118</td>
-  <td id="LC118" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p&nbsp;=&nbsp;1<br /></td>
+  <td id="LC118" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;pair&nbsp;<span class="keyword">As</span>&nbsp;(T,&nbsp;T)&nbsp;=&nbsp;<span class="keyword">Get</span>ObjectPair()<br /></td>
 </tr>
 <tr>
   <td id="L119" class="blob-num js-line-number" data-line-number="119">119</td>
-  <td id="LC119" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;pair&nbsp;<span class="keyword">As</span>&nbsp;(T,&nbsp;T)&nbsp;=&nbsp;<span class="keyword">Get</span>ObjectPair()<br /></td>
+  <td id="LC119" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_NewLine&nbsp;=&nbsp;<span class="keyword">True</span><br /></td>
 </tr>
 <tr>
   <td id="L120" class="blob-num js-line-number" data-line-number="120">120</td>
-  <td id="LC120" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_NewLine&nbsp;=&nbsp;<span class="keyword">True</span><br /></td>
+  <td id="LC120" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L121" class="blob-num js-line-number" data-line-number="121">121</td>
-  <td id="LC121" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC121" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;pair<br /></td>
 </tr>
 <tr>
   <td id="L122" class="blob-num js-line-number" data-line-number="122">122</td>
-  <td id="LC122" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;pair<br /></td>
+  <td id="LC122" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">If</span><br /></td>
 </tr>
 <tr>
   <td id="L123" class="blob-num js-line-number" data-line-number="123">123</td>
-  <td id="LC123" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">If</span><br /></td>
+  <td id="LC123" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
 </tr>
 <tr>
   <td id="L124" class="blob-num js-line-number" data-line-number="124">124</td>
-  <td id="LC124" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
+  <td id="LC124" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L125" class="blob-num js-line-number" data-line-number="125">125</td>
-  <td id="LC125" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC125" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Friend</span>&nbsp;<span class="keyword">Sub</span>&nbsp;<span class="keyword">New</span>()<br /></td>
 </tr>
 <tr>
   <td id="L126" class="blob-num js-line-number" data-line-number="126">126</td>
-  <td id="LC126" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Friend</span>&nbsp;<span class="keyword">Sub</span>&nbsp;<span class="keyword">New</span>()<br /></td>
+  <td id="LC126" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Sub</span><br /></td>
 </tr>
 <tr>
   <td id="L127" class="blob-num js-line-number" data-line-number="127">127</td>
-  <td id="LC127" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Sub</span><br /></td>
+  <td id="LC127" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L128" class="blob-num js-line-number" data-line-number="128">128</td>
-  <td id="LC128" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC128" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Shared</span>&nbsp;<span class="keyword">Function</span>&nbsp;CreateObject(source&nbsp;<span class="keyword">As</span>&nbsp;IEnumerable(Of&nbsp;T))&nbsp;<span class="keyword">As</span>&nbsp;Comb(Of&nbsp;T)<br /></td>
 </tr>
 <tr>
   <td id="L129" class="blob-num js-line-number" data-line-number="129">129</td>
-  <td id="LC129" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Shared</span>&nbsp;<span class="keyword">Function</span>&nbsp;CreateObject(source&nbsp;<span class="keyword">As</span>&nbsp;IEnumerable(Of&nbsp;T))&nbsp;<span class="keyword">As</span>&nbsp;Comb(Of&nbsp;T)<br /></td>
+  <td id="LC129" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">New</span>&nbsp;Comb(Of&nbsp;T)&nbsp;<span class="keyword">With</span>&nbsp;{<br /></td>
 </tr>
 <tr>
   <td id="L130" class="blob-num js-line-number" data-line-number="130">130</td>
-  <td id="LC130" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">New</span>&nbsp;Comb(Of&nbsp;T)&nbsp;<span class="keyword">With</span>&nbsp;{<br /></td>
+  <td id="LC130" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.source&nbsp;=&nbsp;source.AsList<br /></td>
 </tr>
 <tr>
   <td id="L131" class="blob-num js-line-number" data-line-number="131">131</td>
-  <td id="LC131" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.source&nbsp;=&nbsp;source.AsList<br /></td>
+  <td id="LC131" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></td>
 </tr>
 <tr>
   <td id="L132" class="blob-num js-line-number" data-line-number="132">132</td>
-  <td id="LC132" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></td>
+  <td id="LC132" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
 </tr>
 <tr>
   <td id="L133" class="blob-num js-line-number" data-line-number="133">133</td>
-  <td id="LC133" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
+  <td id="LC133" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L134" class="blob-num js-line-number" data-line-number="134">134</td>
-  <td id="LC134" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC134" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Overrides</span>&nbsp;<span class="keyword">Function</span>&nbsp;<span class="keyword">To</span>String()&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span><br /></td>
 </tr>
 <tr>
   <td id="L135" class="blob-num js-line-number" data-line-number="135">135</td>
-  <td id="LC135" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Overrides</span>&nbsp;<span class="keyword">Function</span>&nbsp;<span class="keyword">To</span>String()&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span><br /></td>
+  <td id="LC135" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">String</span>.Format(<span class="string">"Comb(Of&nbsp;{0})::There&nbsp;is&nbsp;{1}&nbsp;object&nbsp;last."</span>,&nbsp;<span class="keyword">GetType</span>(T).FullName,&nbsp;source.Count)<br /></td>
 </tr>
 <tr>
   <td id="L136" class="blob-num js-line-number" data-line-number="136">136</td>
-  <td id="LC136" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">String</span>.Format(<span class="string">"Comb(Of&nbsp;{0})::There&nbsp;is&nbsp;{1}&nbsp;object&nbsp;last."</span>,&nbsp;<span class="keyword">GetType</span>(T).FullName,&nbsp;source.Count)<br /></td>
+  <td id="LC136" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
 </tr>
 <tr>
   <td id="L137" class="blob-num js-line-number" data-line-number="137">137</td>
-  <td id="LC137" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
+  <td id="LC137" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L138" class="blob-num js-line-number" data-line-number="138">138</td>
-  <td id="LC138" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC138" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Shared</span>&nbsp;<span class="keyword">Widening</span>&nbsp;<span class="keyword">Operator</span>&nbsp;<span class="keyword">CType</span>(source&nbsp;<span class="keyword">As</span>&nbsp;T())&nbsp;<span class="keyword">As</span>&nbsp;Comb(Of&nbsp;T)<br /></td>
 </tr>
 <tr>
   <td id="L139" class="blob-num js-line-number" data-line-number="139">139</td>
-  <td id="LC139" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Shared</span>&nbsp;<span class="keyword">Widening</span>&nbsp;<span class="keyword">Operator</span>&nbsp;<span class="keyword">CType</span>(source&nbsp;<span class="keyword">As</span>&nbsp;T())&nbsp;<span class="keyword">As</span>&nbsp;Comb(Of&nbsp;T)<br /></td>
+  <td id="LC139" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">New</span>&nbsp;Comb(Of&nbsp;T)&nbsp;<span class="keyword">With</span>&nbsp;{<br /></td>
 </tr>
 <tr>
   <td id="L140" class="blob-num js-line-number" data-line-number="140">140</td>
-  <td id="LC140" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">New</span>&nbsp;Comb(Of&nbsp;T)&nbsp;<span class="keyword">With</span>&nbsp;{<br /></td>
+  <td id="LC140" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.source&nbsp;=&nbsp;source.AsList<br /></td>
 </tr>
 <tr>
   <td id="L141" class="blob-num js-line-number" data-line-number="141">141</td>
-  <td id="LC141" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.source&nbsp;=&nbsp;source.AsList<br /></td>
+  <td id="LC141" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></td>
 </tr>
 <tr>
   <td id="L142" class="blob-num js-line-number" data-line-number="142">142</td>
-  <td id="LC142" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></td>
+  <td id="LC142" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Operator</span><br /></td>
 </tr>
 <tr>
   <td id="L143" class="blob-num js-line-number" data-line-number="143">143</td>
-  <td id="LC143" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Operator</span><br /></td>
+  <td id="LC143" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L144" class="blob-num js-line-number" data-line-number="144">144</td>
-  <td id="LC144" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC144" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Shared</span>&nbsp;<span class="keyword">Widening</span>&nbsp;<span class="keyword">Operator</span>&nbsp;<span class="keyword">CType</span>(source&nbsp;<span class="keyword">As</span>&nbsp;List(Of&nbsp;T))&nbsp;<span class="keyword">As</span>&nbsp;Comb(Of&nbsp;T)<br /></td>
 </tr>
 <tr>
   <td id="L145" class="blob-num js-line-number" data-line-number="145">145</td>
-  <td id="LC145" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Shared</span>&nbsp;<span class="keyword">Widening</span>&nbsp;<span class="keyword">Operator</span>&nbsp;<span class="keyword">CType</span>(source&nbsp;<span class="keyword">As</span>&nbsp;List(Of&nbsp;T))&nbsp;<span class="keyword">As</span>&nbsp;Comb(Of&nbsp;T)<br /></td>
+  <td id="LC145" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">New</span>&nbsp;Comb(Of&nbsp;T)&nbsp;<span class="keyword">With</span>&nbsp;{<br /></td>
 </tr>
 <tr>
   <td id="L146" class="blob-num js-line-number" data-line-number="146">146</td>
-  <td id="LC146" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">New</span>&nbsp;Comb(Of&nbsp;T)&nbsp;<span class="keyword">With</span>&nbsp;{<br /></td>
+  <td id="LC146" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.source&nbsp;=&nbsp;source<br /></td>
 </tr>
 <tr>
   <td id="L147" class="blob-num js-line-number" data-line-number="147">147</td>
-  <td id="LC147" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.source&nbsp;=&nbsp;source<br /></td>
+  <td id="LC147" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></td>
 </tr>
 <tr>
   <td id="L148" class="blob-num js-line-number" data-line-number="148">148</td>
-  <td id="LC148" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></td>
+  <td id="LC148" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Operator</span><br /></td>
 </tr>
 <tr>
   <td id="L149" class="blob-num js-line-number" data-line-number="149">149</td>
-  <td id="LC149" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Operator</span><br /></td>
+  <td id="LC149" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L150" class="blob-num js-line-number" data-line-number="150">150</td>
-  <td id="LC150" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC150" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L151" class="blob-num js-line-number" data-line-number="151">151</td>
-  <td id="LC151" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
+  <td id="LC151" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;Creates&nbsp;the&nbsp;completely&nbsp;combination&nbsp;of&nbsp;the&nbsp;elements&nbsp;in&nbsp;the&nbsp;target&nbsp;input&nbsp;collection&nbsp;source.</span><br /></td>
 </tr>
 <tr>
   <td id="L152" class="blob-num js-line-number" data-line-number="152">152</td>
-  <td id="LC152" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;Creates&nbsp;the&nbsp;completely&nbsp;combination&nbsp;of&nbsp;the&nbsp;elements&nbsp;in&nbsp;the&nbsp;target&nbsp;input&nbsp;collection&nbsp;source.</span><br /></td>
+  <td id="LC152" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;(创建完完全全的两两配对)</span><br /></td>
 </tr>
 <tr>
   <td id="L153" class="blob-num js-line-number" data-line-number="153">153</td>
-  <td id="LC153" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;(创建完完全全的两两配对)</span><br /></td>
+  <td id="LC153" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L154" class="blob-num js-line-number" data-line-number="154">154</td>
-  <td id="LC154" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
+  <td id="LC154" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="source"&gt;&lt;/param&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L155" class="blob-num js-line-number" data-line-number="155">155</td>
-  <td id="LC155" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="source"&gt;&lt;/param&gt;</span><br /></td>
+  <td id="LC155" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;&lt;/returns&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L156" class="blob-num js-line-number" data-line-number="156">156</td>
-  <td id="LC156" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;&lt;/returns&gt;</span><br /></td>
+  <td id="LC156" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;remarks&gt;&lt;/remarks&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L157" class="blob-num js-line-number" data-line-number="157">157</td>
-  <td id="LC157" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;remarks&gt;&lt;/remarks&gt;</span><br /></td>
+  <td id="LC157" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Shared</span>&nbsp;Iterator&nbsp;<span class="keyword">Function</span>&nbsp;CreateCompleteObjectPairs(source&nbsp;<span class="keyword">As</span>&nbsp;IEnumerable(Of&nbsp;T))&nbsp;<span class="keyword">As</span>&nbsp;IEnumerable(Of&nbsp;Tuple(Of&nbsp;T,&nbsp;T)())<br /></td>
 </tr>
 <tr>
   <td id="L158" class="blob-num js-line-number" data-line-number="158">158</td>
-  <td id="LC158" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Shared</span>&nbsp;Iterator&nbsp;<span class="keyword">Function</span>&nbsp;CreateCompleteObjectPairs(source&nbsp;<span class="keyword">As</span>&nbsp;IEnumerable(Of&nbsp;T))&nbsp;<span class="keyword">As</span>&nbsp;IEnumerable(Of&nbsp;Tuple(Of&nbsp;T,&nbsp;T)())<br /></td>
+  <td id="LC158" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;array&nbsp;<span class="keyword">As</span>&nbsp;T()&nbsp;=&nbsp;source.ToArray<br /></td>
 </tr>
 <tr>
   <td id="L159" class="blob-num js-line-number" data-line-number="159">159</td>
-  <td id="LC159" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;array&nbsp;<span class="keyword">As</span>&nbsp;T()&nbsp;=&nbsp;source.ToArray<br /></td>
+  <td id="LC159" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L160" class="blob-num js-line-number" data-line-number="160">160</td>
-  <td id="LC160" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC160" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">For</span>&nbsp;<span class="keyword">Each</span>&nbsp;i&nbsp;<span class="keyword">As</span>&nbsp;T&nbsp;<span class="keyword">In</span>&nbsp;array<br /></td>
 </tr>
 <tr>
   <td id="L161" class="blob-num js-line-number" data-line-number="161">161</td>
-  <td id="LC161" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">For</span>&nbsp;<span class="keyword">Each</span>&nbsp;i&nbsp;<span class="keyword">As</span>&nbsp;T&nbsp;<span class="keyword">In</span>&nbsp;array<br /></td>
+  <td id="LC161" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;tmp&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">New</span>&nbsp;List(Of&nbsp;Tuple(Of&nbsp;T,&nbsp;T))<br /></td>
 </tr>
 <tr>
   <td id="L162" class="blob-num js-line-number" data-line-number="162">162</td>
-  <td id="LC162" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;tmp&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">New</span>&nbsp;List(Of&nbsp;Tuple(Of&nbsp;T,&nbsp;T))<br /></td>
+  <td id="LC162" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L163" class="blob-num js-line-number" data-line-number="163">163</td>
-  <td id="LC163" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC163" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">For</span>&nbsp;<span class="keyword">Each</span>&nbsp;j&nbsp;<span class="keyword">As</span>&nbsp;T&nbsp;<span class="keyword">In</span>&nbsp;array<br /></td>
 </tr>
 <tr>
   <td id="L164" class="blob-num js-line-number" data-line-number="164">164</td>
-  <td id="LC164" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">For</span>&nbsp;<span class="keyword">Each</span>&nbsp;j&nbsp;<span class="keyword">As</span>&nbsp;T&nbsp;<span class="keyword">In</span>&nbsp;array<br /></td>
+  <td id="LC164" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tmp&nbsp;+=&nbsp;<span class="keyword">New</span>&nbsp;Tuple(Of&nbsp;T,&nbsp;T)(i,&nbsp;j)<br /></td>
 </tr>
 <tr>
   <td id="L165" class="blob-num js-line-number" data-line-number="165">165</td>
-  <td id="LC165" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tmp&nbsp;+=&nbsp;<span class="keyword">New</span>&nbsp;Tuple(Of&nbsp;T,&nbsp;T)(i,&nbsp;j)<br /></td>
+  <td id="LC165" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Next</span><br /></td>
 </tr>
 <tr>
   <td id="L166" class="blob-num js-line-number" data-line-number="166">166</td>
-  <td id="LC166" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Next</span><br /></td>
+  <td id="LC166" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L167" class="blob-num js-line-number" data-line-number="167">167</td>
-  <td id="LC167" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC167" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Yield</span>&nbsp;tmp.ToArray<br /></td>
 </tr>
 <tr>
   <td id="L168" class="blob-num js-line-number" data-line-number="168">168</td>
-  <td id="LC168" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Yield</span>&nbsp;tmp.ToArray<br /></td>
+  <td id="LC168" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Next</span><br /></td>
 </tr>
 <tr>
   <td id="L169" class="blob-num js-line-number" data-line-number="169">169</td>
-  <td id="LC169" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Next</span><br /></td>
+  <td id="LC169" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
 </tr>
 <tr>
   <td id="L170" class="blob-num js-line-number" data-line-number="170">170</td>
-  <td id="LC170" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
+  <td id="LC170" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Class</span><br /></td>
 </tr>
 <tr>
   <td id="L171" class="blob-num js-line-number" data-line-number="171">171</td>
-  <td id="LC171" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Class</span><br /></td>
-</tr>
-<tr>
-  <td id="L172" class="blob-num js-line-number" data-line-number="172">172</td>
-  <td id="LC172" class="blob-code blob-code-inner js-file-line"><span class="keyword">End</span>&nbsp;<span class="keyword">Namespace</span><br /></td>
+  <td id="LC171" class="blob-code blob-code-inner js-file-line"><span class="keyword">End</span>&nbsp;<span class="keyword">Namespace</span><br /></td>
 </tr></tbody>
 </table>
                         </div>
   </body>
+  <script type="text/javascript">
+                        var url_path = "./Comb.html";
+                                              
+	                    var lines = document.getElementsByClassName("js-line-number");
+	
+	                    for (var i = 0; i < lines.length; i++) {
+		                    var line = lines[i];
+		                    var a = document.createElement("a");
+		                    var num = line.getAttribute("data-line-number");
+		                    var id = line.id;
+		
+		                    a.setAttribute("href", url_path + "#" + id);
+		                    a.setAttribute("target", "_self");
+                            a.innerText = num;
+
+		                    line.innerHTML = "";
+		                    line.appendChild(a);
+	                    }
+                        </script>
 </html>

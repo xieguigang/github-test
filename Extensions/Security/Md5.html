@@ -1,5 +1,8 @@
 <html>
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="VisualBasic Programming" />
     <title>Extensions\Security\Md5.vb</title>
     <style type="text/css">
                             
@@ -36,7 +39,8 @@
                                 color: #2b91af;                                
                                 text-align: right;
                                 padding-right: 5px;
-                                border-right-style: inset;
+                                /* border-right-style: inset; 
+                                */
                             }
 
                             .js-file-line .js-line-number {
@@ -46,6 +50,11 @@
                             .js-file-line {
                                 padding-left: 10px;
                             }
+
+                            a:link { text-decoration: none;color: #2b91af}
+　　                        a:active { text-decoration:blink}
+　　                        a:hover { text-decoration:underline;color: #2b91af} 
+　　                        a:visited { text-decoration: none;color: #2b91af}
                         </style>
   </head>
   <body>
@@ -53,7 +62,7 @@
                             <table class="highlight tab-size js-file-line-container" data-tab-size="8">
   <tbody><tr>
   <td id="L1" class="blob-num js-line-number" data-line-number="1">1</td>
-  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::c2119c18e26df155f5156663d42230b4,&nbsp;Microsoft.VisualBasic.Core\Extensions\Security\Md5.vb"</span><br /></td>
+  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::d4e24ef5df87a839ca5674d4f8d08eb5,&nbsp;Microsoft.VisualBasic.Core\Extensions\Security\Md5.vb"</span><br /></td>
 </tr>
 <tr>
   <td id="L2" class="blob-num js-line-number" data-line-number="2">2</td>
@@ -197,7 +206,7 @@
 </tr>
 <tr>
   <td id="L37" class="blob-num js-line-number" data-line-number="37">37</td>
-  <td id="LC37" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SaltValue,&nbsp;<span class="keyword">String</span>ToByteArray,&nbsp;<span class="keyword">To</span>Long,&nbsp;VerifyFile,&nbsp;VerifyMd5Hash</span><br /></td>
+  <td id="LC37" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SaltValue,&nbsp;<span class="keyword">String</span>ToByteArray,&nbsp;(+2&nbsp;<span class="keyword">Overloads</span>)&nbsp;<span class="keyword">To</span>Long,&nbsp;VerifyFile,&nbsp;VerifyMd5Hash</span><br /></td>
 </tr>
 <tr>
   <td id="L38" class="blob-num js-line-number" data-line-number="38">38</td>
@@ -973,93 +982,152 @@
 </tr>
 <tr>
   <td id="L231" class="blob-num js-line-number" data-line-number="231">231</td>
-  <td id="LC231" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Function</span>&nbsp;<span class="keyword">Get</span>FileHashString(&lt;Parameter(<span class="string">"Path.Uri"</span>,&nbsp;<span class="string">"The&nbsp;file&nbsp;path&nbsp;of&nbsp;the&nbsp;target&nbsp;file&nbsp;to&nbsp;be&nbsp;calculated."</span>)&gt;&nbsp;PathUri&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>)&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span><br /></td>
+  <td id="LC231" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Extension&gt;<br /></td>
 </tr>
 <tr>
   <td id="L232" class="blob-num js-line-number" data-line-number="232">232</td>
-  <td id="LC232" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">If</span>&nbsp;<span class="keyword">Not</span>&nbsp;PathUri.FileExists&nbsp;<span class="keyword">OrElse</span>&nbsp;FileIO.FileSystem.GetFileInfo(PathUri).Length&nbsp;=&nbsp;0&nbsp;<span class="keyword">Then</span><br /></td>
+  <td id="LC232" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Function</span>&nbsp;<span class="keyword">Get</span>FileHashString(&lt;Parameter(<span class="string">"Path.Uri"</span>,&nbsp;<span class="string">"The&nbsp;file&nbsp;path&nbsp;of&nbsp;the&nbsp;target&nbsp;file&nbsp;to&nbsp;be&nbsp;calculated."</span>)&gt;&nbsp;PathUri&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>)&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span><br /></td>
 </tr>
 <tr>
   <td id="L233" class="blob-num js-line-number" data-line-number="233">233</td>
-  <td id="LC233" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="string">""</span><br /></td>
+  <td id="LC233" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">If</span>&nbsp;<span class="keyword">Not</span>&nbsp;PathUri.FileExists&nbsp;<span class="keyword">OrElse</span>&nbsp;FileIO.FileSystem.GetFileInfo(PathUri).Length&nbsp;=&nbsp;0&nbsp;<span class="keyword">Then</span><br /></td>
 </tr>
 <tr>
   <td id="L234" class="blob-num js-line-number" data-line-number="234">234</td>
-  <td id="LC234" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">If</span><br /></td>
+  <td id="LC234" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="string">""</span><br /></td>
 </tr>
 <tr>
   <td id="L235" class="blob-num js-line-number" data-line-number="235">235</td>
-  <td id="LC235" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC235" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">If</span><br /></td>
 </tr>
 <tr>
   <td id="L236" class="blob-num js-line-number" data-line-number="236">236</td>
-  <td id="LC236" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;bufs&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Byte</span>()&nbsp;=&nbsp;IO.File.ReadAllBytes(PathUri)<br /></td>
+  <td id="LC236" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L237" class="blob-num js-line-number" data-line-number="237">237</td>
-  <td id="LC237" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">Get</span>Md5Hash(bufs)<br /></td>
+  <td id="LC237" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;bufs&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Byte</span>()&nbsp;=&nbsp;IO.File.ReadAllBytes(PathUri)<br /></td>
 </tr>
 <tr>
   <td id="L238" class="blob-num js-line-number" data-line-number="238">238</td>
-  <td id="LC238" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
+  <td id="LC238" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">Get</span>Md5Hash(bufs)<br /></td>
 </tr>
 <tr>
   <td id="L239" class="blob-num js-line-number" data-line-number="239">239</td>
-  <td id="LC239" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC239" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
 </tr>
 <tr>
   <td id="L240" class="blob-num js-line-number" data-line-number="240">240</td>
-  <td id="LC240" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
+  <td id="LC240" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L241" class="blob-num js-line-number" data-line-number="241">241</td>
-  <td id="LC241" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;SHA256&nbsp;8&nbsp;bits&nbsp;salt&nbsp;value&nbsp;for&nbsp;the&nbsp;private&nbsp;key.</span><br /></td>
+  <td id="LC241" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L242" class="blob-num js-line-number" data-line-number="242">242</td>
-  <td id="LC242" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
+  <td id="LC242" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;SHA256&nbsp;8&nbsp;bits&nbsp;salt&nbsp;value&nbsp;for&nbsp;the&nbsp;private&nbsp;key.</span><br /></td>
 </tr>
 <tr>
   <td id="L243" class="blob-num js-line-number" data-line-number="243">243</td>
-  <td id="LC243" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="value"&gt;&lt;/param&gt;</span><br /></td>
+  <td id="LC243" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L244" class="blob-num js-line-number" data-line-number="244">244</td>
-  <td id="LC244" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;&lt;/returns&gt;</span><br /></td>
+  <td id="LC244" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="value"&gt;&lt;/param&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L245" class="blob-num js-line-number" data-line-number="245">245</td>
-  <td id="LC245" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ExportAPI(<span class="string">"SaltValue"</span>,&nbsp;<span class="keyword">In</span>fo:=<span class="string">"SHA256&nbsp;8&nbsp;bits&nbsp;salt&nbsp;value&nbsp;for&nbsp;the&nbsp;private&nbsp;key."</span>)&gt;<br /></td>
+  <td id="LC245" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;&lt;/returns&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L246" class="blob-num js-line-number" data-line-number="246">246</td>
-  <td id="LC246" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Function</span>&nbsp;SaltValue(value&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>)&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span><br /></td>
+  <td id="LC246" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ExportAPI(<span class="string">"SaltValue"</span>,&nbsp;<span class="keyword">In</span>fo:=<span class="string">"SHA256&nbsp;8&nbsp;bits&nbsp;salt&nbsp;value&nbsp;for&nbsp;the&nbsp;private&nbsp;key."</span>)&gt;<br /></td>
 </tr>
 <tr>
   <td id="L247" class="blob-num js-line-number" data-line-number="247">247</td>
-  <td id="LC247" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;hash&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>&nbsp;=&nbsp;<span class="keyword">Get</span>Md5Hash(value)<br /></td>
+  <td id="LC247" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Function</span>&nbsp;SaltValue(value&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>)&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span><br /></td>
 </tr>
 <tr>
   <td id="L248" class="blob-num js-line-number" data-line-number="248">248</td>
-  <td id="LC248" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;chars&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Char</span>()&nbsp;=&nbsp;<span class="keyword">New</span>&nbsp;<span class="keyword">Char</span>()&nbsp;{hash(0),&nbsp;hash(1),&nbsp;hash(3),&nbsp;hash(5),&nbsp;hash(15),&nbsp;hash(23),&nbsp;hash(28),&nbsp;hash(31)}<br /></td>
+  <td id="LC248" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;hash&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>&nbsp;=&nbsp;<span class="keyword">Get</span>Md5Hash(value)<br /></td>
 </tr>
 <tr>
   <td id="L249" class="blob-num js-line-number" data-line-number="249">249</td>
-  <td id="LC249" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">New</span>&nbsp;<span class="keyword">String</span>(chars)<br /></td>
+  <td id="LC249" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;chars()&nbsp;=&nbsp;{<br /></td>
 </tr>
 <tr>
   <td id="L250" class="blob-num js-line-number" data-line-number="250">250</td>
-  <td id="LC250" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
+  <td id="LC250" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hash(0),<br /></td>
 </tr>
 <tr>
   <td id="L251" class="blob-num js-line-number" data-line-number="251">251</td>
-  <td id="LC251" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Module</span><br /></td>
+  <td id="LC251" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hash(1),<br /></td>
 </tr>
 <tr>
   <td id="L252" class="blob-num js-line-number" data-line-number="252">252</td>
-  <td id="LC252" class="blob-code blob-code-inner js-file-line"><span class="keyword">End</span>&nbsp;<span class="keyword">Namespace</span><br /></td>
+  <td id="LC252" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hash(3),<br /></td>
+</tr>
+<tr>
+  <td id="L253" class="blob-num js-line-number" data-line-number="253">253</td>
+  <td id="LC253" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hash(5),<br /></td>
+</tr>
+<tr>
+  <td id="L254" class="blob-num js-line-number" data-line-number="254">254</td>
+  <td id="LC254" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hash(15),<br /></td>
+</tr>
+<tr>
+  <td id="L255" class="blob-num js-line-number" data-line-number="255">255</td>
+  <td id="LC255" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hash(23),<br /></td>
+</tr>
+<tr>
+  <td id="L256" class="blob-num js-line-number" data-line-number="256">256</td>
+  <td id="LC256" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hash(28),<br /></td>
+</tr>
+<tr>
+  <td id="L257" class="blob-num js-line-number" data-line-number="257">257</td>
+  <td id="LC257" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hash(31)<br /></td>
+</tr>
+<tr>
+  <td id="L258" class="blob-num js-line-number" data-line-number="258">258</td>
+  <td id="LC258" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></td>
+</tr>
+<tr>
+  <td id="L259" class="blob-num js-line-number" data-line-number="259">259</td>
+  <td id="LC259" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;chars.CharString<br /></td>
+</tr>
+<tr>
+  <td id="L260" class="blob-num js-line-number" data-line-number="260">260</td>
+  <td id="LC260" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
+</tr>
+<tr>
+  <td id="L261" class="blob-num js-line-number" data-line-number="261">261</td>
+  <td id="LC261" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Module</span><br /></td>
+</tr>
+<tr>
+  <td id="L262" class="blob-num js-line-number" data-line-number="262">262</td>
+  <td id="LC262" class="blob-code blob-code-inner js-file-line"><span class="keyword">End</span>&nbsp;<span class="keyword">Namespace</span><br /></td>
 </tr></tbody>
 </table>
                         </div>
   </body>
+  <script type="text/javascript">
+                        var url_path = "./Md5.html";
+                                              
+	                    var lines = document.getElementsByClassName("js-line-number");
+	
+	                    for (var i = 0; i < lines.length; i++) {
+		                    var line = lines[i];
+		                    var a = document.createElement("a");
+		                    var num = line.getAttribute("data-line-number");
+		                    var id = line.id;
+		
+		                    a.setAttribute("href", url_path + "#" + id);
+		                    a.setAttribute("target", "_self");
+                            a.innerText = num;
+
+		                    line.innerHTML = "";
+		                    line.appendChild(a);
+	                    }
+                        </script>
 </html>
