@@ -1,5 +1,8 @@
 <html>
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="VisualBasic Programming" />
     <title>Extensions\Image\ImageFormat.vb</title>
     <style type="text/css">
                             
@@ -36,7 +39,8 @@
                                 color: #2b91af;                                
                                 text-align: right;
                                 padding-right: 5px;
-                                border-right-style: inset;
+                                /* border-right-style: inset; 
+                                */
                             }
 
                             .js-file-line .js-line-number {
@@ -46,6 +50,11 @@
                             .js-file-line {
                                 padding-left: 10px;
                             }
+
+                            a:link { text-decoration: none;color: #2b91af}
+　　                        a:active { text-decoration:blink}
+　　                        a:hover { text-decoration:underline;color: #2b91af} 
+　　                        a:visited { text-decoration: none;color: #2b91af}
                         </style>
   </head>
   <body>
@@ -53,7 +62,7 @@
                             <table class="highlight tab-size js-file-line-container" data-tab-size="8">
   <tbody><tr>
   <td id="L1" class="blob-num js-line-number" data-line-number="1">1</td>
-  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::0ea751b114acdf831795adab35301319,&nbsp;Microsoft.VisualBasic.Core\Extensions\Image\ImageFormat.vb"</span><br /></td>
+  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::d2fbac009c5a6f0dc8a43ac3bdaa8e66,&nbsp;Microsoft.VisualBasic.Core\Extensions\Image\ImageFormat.vb"</span><br /></td>
 </tr>
 <tr>
   <td id="L2" class="blob-num js-line-number" data-line-number="2">2</td>
@@ -241,7 +250,7 @@
 </tr>
 <tr>
   <td id="L48" class="blob-num js-line-number" data-line-number="48">48</td>
-  <td id="LC48" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Function</span>:&nbsp;<span class="keyword">Get</span>SaveImageFormat,&nbsp;ParseImageFormat</span><br /></td>
+  <td id="LC48" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Function</span>:&nbsp;<span class="keyword">Get</span>Format,&nbsp;<span class="keyword">Get</span>SaveImageFormat,&nbsp;ParseImageFormat,&nbsp;SaveAs</span><br /></td>
 </tr>
 <tr>
   <td id="L49" class="blob-num js-line-number" data-line-number="49">49</td>
@@ -513,7 +522,7 @@
 </tr>
 <tr>
   <td id="L116" class="blob-num js-line-number" data-line-number="116">116</td>
-  <td id="LC116" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;Specifies&nbsp;the&nbsp;file&nbsp;format&nbsp;of&nbsp;the&nbsp;image.&nbsp;<span class="keyword">Not</span>&nbsp;inheritable.</span><br /></td>
+  <td id="LC116" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;Specifies&nbsp;the&nbsp;file&nbsp;format&nbsp;of&nbsp;the&nbsp;image.</span>&nbsp;<span class="keyword">Not</span>&nbsp;inheritable.<br /></td>
 </tr>
 <tr>
   <td id="L117" class="blob-num js-line-number" data-line-number="117">117</td>
@@ -805,11 +814,11 @@
 </tr>
 <tr>
   <td id="L189" class="blob-num js-line-number" data-line-number="189">189</td>
-  <td id="LC189" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;Saves&nbsp;this&nbsp;&lt;see&nbsp;cref="System.Drawing.Image"/&gt;&nbsp;to&nbsp;the&nbsp;specified&nbsp;file&nbsp;in&nbsp;the&nbsp;specified&nbsp;format.</span><br /></td>
+  <td id="LC189" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>Saves&nbsp;this&nbsp;&lt;see&nbsp;cref=<span class="string">"System.Drawing.Image"</span>/&gt;&nbsp;to&nbsp;the&nbsp;specified&nbsp;file&nbsp;in&nbsp;the&nbsp;specified&nbsp;format.<br /></td>
 </tr>
 <tr>
   <td id="L190" class="blob-num js-line-number" data-line-number="190">190</td>
-  <td id="LC190" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;(这个函数可以很容易的将图像对象保存为tiff文件)</span><br /></td>
+  <td id="LC190" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>(这个函数可以很容易的将图像对象保存为tiff文件)<br /></td>
 </tr>
 <tr>
   <td id="L191" class="blob-num js-line-number" data-line-number="191">191</td>
@@ -817,35 +826,35 @@
 </tr>
 <tr>
   <td id="L192" class="blob-num js-line-number" data-line-number="192">192</td>
-  <td id="LC192" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="res"&gt;</span><br /></td>
+  <td id="LC192" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"res"</span>&gt;<br /></td>
 </tr>
 <tr>
   <td id="L193" class="blob-num js-line-number" data-line-number="193">193</td>
-  <td id="LC193" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;The&nbsp;image&nbsp;resource&nbsp;data&nbsp;that&nbsp;will&nbsp;be&nbsp;saved&nbsp;to&nbsp;the&nbsp;disk.</span><br /></td>
+  <td id="LC193" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>The&nbsp;image&nbsp;resource&nbsp;data&nbsp;that&nbsp;will&nbsp;be&nbsp;saved&nbsp;to&nbsp;the&nbsp;disk.<br /></td>
 </tr>
 <tr>
   <td id="L194" class="blob-num js-line-number" data-line-number="194">194</td>
-  <td id="LC194" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;(因为这个函数可能会被&lt;see&nbsp;cref="Graphics2D.ImageResource"/&gt;所调用，</span><br /></td>
+  <td id="LC194" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>(因为这个函数可能会被&lt;see&nbsp;cref=<span class="string">"Graphics2D.ImageResource"</span>/&gt;所调用，<br /></td>
 </tr>
 <tr>
   <td id="L195" class="blob-num js-line-number" data-line-number="195">195</td>
-  <td id="LC195" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;由于该属性的Set方法是不公开可见的，所以将会不兼容这个方法，如果这个</span><br /></td>
+  <td id="LC195" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>由于该属性的Set方法是不公开可见的，所以将会不兼容这个方法，如果这个<br /></td>
 </tr>
 <tr>
   <td id="L196" class="blob-num js-line-number" data-line-number="196">196</td>
-  <td id="LC196" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;参数被设置为ByRef的话)</span><br /></td>
+  <td id="LC196" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>参数被设置为ByRef的话)<br /></td>
 </tr>
 <tr>
   <td id="L197" class="blob-num js-line-number" data-line-number="197">197</td>
-  <td id="LC197" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/param&gt;</span><br /></td>
+  <td id="LC197" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L198" class="blob-num js-line-number" data-line-number="198">198</td>
-  <td id="LC198" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="path"&gt;path&nbsp;string&lt;/param&gt;</span><br /></td>
+  <td id="LC198" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"path"</span>&gt;path&nbsp;string&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L199" class="blob-num js-line-number" data-line-number="199">199</td>
-  <td id="LC199" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="format"&gt;Image&nbsp;formats&nbsp;enumeration.&lt;/param&gt;</span><br /></td>
+  <td id="LC199" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"format"</span>&gt;Image&nbsp;formats&nbsp;enumeration.&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L200" class="blob-num js-line-number" data-line-number="200">200</td>
@@ -986,4 +995,23 @@
 </table>
                         </div>
   </body>
+  <script type="text/javascript">
+                        var url_path = "./ImageFormat.html";
+                                              
+	                    var lines = document.getElementsByClassName("js-line-number");
+	
+	                    for (var i = 0; i < lines.length; i++) {
+		                    var line = lines[i];
+		                    var a = document.createElement("a");
+		                    var num = line.getAttribute("data-line-number");
+		                    var id = line.id;
+		
+		                    a.setAttribute("href", url_path + "#" + id);
+		                    a.setAttribute("target", "_self");
+                            a.innerText = num;
+
+		                    line.innerHTML = "";
+		                    line.appendChild(a);
+	                    }
+                        </script>
 </html>

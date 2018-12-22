@@ -1,5 +1,8 @@
 <html>
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="VisualBasic Programming" />
     <title>CommandLine\InteropService\SharedORM\API.vb</title>
     <style type="text/css">
                             
@@ -36,7 +39,8 @@
                                 color: #2b91af;                                
                                 text-align: right;
                                 padding-right: 5px;
-                                border-right-style: inset;
+                                /* border-right-style: inset; 
+                                */
                             }
 
                             .js-file-line .js-line-number {
@@ -46,6 +50,11 @@
                             .js-file-line {
                                 padding-left: 10px;
                             }
+
+                            a:link { text-decoration: none;color: #2b91af}
+　　                        a:active { text-decoration:blink}
+　　                        a:hover { text-decoration:underline;color: #2b91af} 
+　　                        a:visited { text-decoration: none;color: #2b91af}
                         </style>
   </head>
   <body>
@@ -53,7 +62,7 @@
                             <table class="highlight tab-size js-file-line-container" data-tab-size="8">
   <tbody><tr>
   <td id="L1" class="blob-num js-line-number" data-line-number="1">1</td>
-  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::794da5dc2dae975321dae2be84c70b76,&nbsp;Microsoft.VisualBasic.Core\CommandLine\InteropService\SharedORM\API.vb"</span><br /></td>
+  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::e9c1f8e8c99d56f8e8b67277f9c1f934,&nbsp;Microsoft.VisualBasic.Core\CommandLine\InteropService\SharedORM\API.vb"</span><br /></td>
 </tr>
 <tr>
   <td id="L2" class="blob-num js-line-number" data-line-number="2">2</td>
@@ -193,7 +202,7 @@
 </tr>
 <tr>
   <td id="L36" class="blob-num js-line-number" data-line-number="36">36</td>
-  <td id="LC36" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Function</span>:&nbsp;BuildArguments</span><br /></td>
+  <td id="LC36" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Function</span>:&nbsp;BuildArguments,&nbsp;CommandLineModel,&nbsp;<span class="keyword">To</span>kenize</span><br /></td>
 </tr>
 <tr>
   <td id="L37" class="blob-num js-line-number" data-line-number="37">37</td>
@@ -461,7 +470,7 @@
 </tr>
 <tr>
   <td id="L103" class="blob-num js-line-number" data-line-number="103">103</td>
-  <td id="LC103" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;._CLICommandArgvs&nbsp;=&nbsp;usage<br /></td>
+  <td id="LC103" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.cliCommandArgvs&nbsp;=&nbsp;usage<br /></td>
 </tr>
 <tr>
   <td id="L104" class="blob-num js-line-number" data-line-number="104">104</td>
@@ -497,15 +506,15 @@
 </tr>
 <tr>
   <td id="L112" class="blob-num js-line-number" data-line-number="112">112</td>
-  <td id="LC112" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="args$"&gt;因为逻辑变量只存在于可选参数之中，所以在这里必须参数直接split2即可&lt;/param&gt;</span><br /></td>
+  <td id="LC112" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"args$"</span>&gt;因为逻辑变量只存在于可选参数之中，所以在这里必须参数直接split2即可&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L113" class="blob-num js-line-number" data-line-number="113">113</td>
-  <td id="LC113" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="optionals$"&gt;&lt;/param&gt;</span><br /></td>
+  <td id="LC113" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"optionals$"</span>&gt;&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L114" class="blob-num js-line-number" data-line-number="114">114</td>
-  <td id="LC114" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="booleans$"&gt;&lt;/param&gt;</span><br /></td>
+  <td id="LC114" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"booleans$"</span>&gt;&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L115" class="blob-num js-line-number" data-line-number="115">115</td>
@@ -561,7 +570,7 @@
 </tr>
 <tr>
   <td id="L128" class="blob-num js-line-number" data-line-number="128">128</td>
-  <td id="LC128" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;booleans&nbsp;=&nbsp;<span class="keyword">Get</span>LogicalArguments(optionals,&nbsp;<span class="keyword">Nothing</span>)<br /></td>
+  <td id="LC128" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;booleans&nbsp;=&nbsp;<span class="keyword">Get</span>LogicalFlags(optionals,&nbsp;<span class="keyword">Nothing</span>)<br /></td>
 </tr>
 <tr>
   <td id="L129" class="blob-num js-line-number" data-line-number="129">129</td>
@@ -677,7 +686,7 @@
 </tr>
 <tr>
   <td id="L157" class="blob-num js-line-number" data-line-number="157">157</td>
-  <td id="LC157" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;使用空格分隔，但是需要对value额外注意</span><br /></td>
+  <td id="LC157" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>使用空格分隔，但是需要对value额外注意<br /></td>
 </tr>
 <tr>
   <td id="L158" class="blob-num js-line-number" data-line-number="158">158</td>
@@ -685,15 +694,15 @@
 </tr>
 <tr>
   <td id="L159" class="blob-num js-line-number" data-line-number="159">159</td>
-  <td id="LC159" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;+&nbsp;在这里面分隔符为空格</span><br /></td>
+  <td id="LC159" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>+&nbsp;在这里面分隔符为空格<br /></td>
 </tr>
 <tr>
   <td id="L160" class="blob-num js-line-number" data-line-number="160">160</td>
-  <td id="LC160" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;+&nbsp;可以使用双引号包裹值，则双引号之中的字符串在可选参数之中都被看作为可选参数值</span><br /></td>
+  <td id="LC160" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>+&nbsp;可以使用双引号包裹值，则双引号之中的字符串在可选参数之中都被看作为可选参数值<br /></td>
 </tr>
 <tr>
   <td id="L161" class="blob-num js-line-number" data-line-number="161">161</td>
-  <td id="LC161" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;+&nbsp;可以使用尖括号包裹值，则尖括号之中的default=表达式则是可选参数之中的默认参数值</span><br /></td>
+  <td id="LC161" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>+&nbsp;可以使用尖括号包裹值，则尖括号之中的default=表达式则是可选参数之中的默认参数值<br /></td>
 </tr>
 <tr>
   <td id="L162" class="blob-num js-line-number" data-line-number="162">162</td>
@@ -701,7 +710,7 @@
 </tr>
 <tr>
   <td id="L163" class="blob-num js-line-number" data-line-number="163">163</td>
-  <td id="LC163" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="s$"&gt;&lt;/param&gt;</span><br /></td>
+  <td id="LC163" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"s$"</span>&gt;&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L164" class="blob-num js-line-number" data-line-number="164">164</td>
@@ -930,4 +939,23 @@
 </table>
                         </div>
   </body>
+  <script type="text/javascript">
+                        var url_path = "./API.html";
+                                              
+	                    var lines = document.getElementsByClassName("js-line-number");
+	
+	                    for (var i = 0; i < lines.length; i++) {
+		                    var line = lines[i];
+		                    var a = document.createElement("a");
+		                    var num = line.getAttribute("data-line-number");
+		                    var id = line.id;
+		
+		                    a.setAttribute("href", url_path + "#" + id);
+		                    a.setAttribute("target", "_self");
+                            a.innerText = num;
+
+		                    line.innerHTML = "";
+		                    line.appendChild(a);
+	                    }
+                        </script>
 </html>

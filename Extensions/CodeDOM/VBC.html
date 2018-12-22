@@ -1,5 +1,8 @@
 <html>
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="VisualBasic Programming" />
     <title>Extensions\CodeDOM\VBC.vb</title>
     <style type="text/css">
                             
@@ -36,7 +39,8 @@
                                 color: #2b91af;                                
                                 text-align: right;
                                 padding-right: 5px;
-                                border-right-style: inset;
+                                /* border-right-style: inset; 
+                                */
                             }
 
                             .js-file-line .js-line-number {
@@ -46,6 +50,11 @@
                             .js-file-line {
                                 padding-left: 10px;
                             }
+
+                            a:link { text-decoration: none;color: #2b91af}
+　　                        a:active { text-decoration:blink}
+　　                        a:hover { text-decoration:underline;color: #2b91af} 
+　　                        a:visited { text-decoration: none;color: #2b91af}
                         </style>
   </head>
   <body>
@@ -53,7 +62,7 @@
                             <table class="highlight tab-size js-file-line-container" data-tab-size="8">
   <tbody><tr>
   <td id="L1" class="blob-num js-line-number" data-line-number="1">1</td>
-  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::6a37b6f937164793150a19d2d292c16e,&nbsp;Microsoft.VisualBasic.Core\Extensions\CodeDOM\VBC.vb"</span><br /></td>
+  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::a7c52218321e230cbb462fe66a5867a5,&nbsp;Microsoft.VisualBasic.Core\Extensions\CodeDOM\VBC.vb"</span><br /></td>
 </tr>
 <tr>
   <td id="L2" class="blob-num js-line-number" data-line-number="2">2</td>
@@ -337,211 +346,211 @@
 </tr>
 <tr>
   <td id="L72" class="blob-num js-line-number" data-line-number="72">72</td>
-  <td id="LC72" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Select</span>&nbsp;path&nbsp;'<br /></td>
+  <td id="LC72" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Select</span>&nbsp;path&nbsp;<span class="comment">' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;libs&nbsp;+=&nbsp;{</span><br /></td>
 </tr>
 <tr>
   <td id="L73" class="blob-num js-line-number" data-line-number="73">73</td>
-  <td id="LC73" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;libs&nbsp;+=&nbsp;{<br /></td>
+  <td id="LC73" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SDK&nbsp;&amp;&nbsp;<span class="string">"\System.dll"</span>,<br /></td>
 </tr>
 <tr>
   <td id="L74" class="blob-num js-line-number" data-line-number="74">74</td>
-  <td id="LC74" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SDK&nbsp;&amp;&nbsp;<span class="string">"\System.dll"</span>,<br /></td>
+  <td id="LC74" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SDK&nbsp;&amp;&nbsp;<span class="string">"\System.Core.dll"</span>,<br /></td>
 </tr>
 <tr>
   <td id="L75" class="blob-num js-line-number" data-line-number="75">75</td>
-  <td id="LC75" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SDK&nbsp;&amp;&nbsp;<span class="string">"\System.Core.dll"</span>,<br /></td>
+  <td id="LC75" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SDK&nbsp;&amp;&nbsp;<span class="string">"\System.Data.dll"</span>,<br /></td>
 </tr>
 <tr>
   <td id="L76" class="blob-num js-line-number" data-line-number="76">76</td>
-  <td id="LC76" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SDK&nbsp;&amp;&nbsp;<span class="string">"\System.Data.dll"</span>,<br /></td>
+  <td id="LC76" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SDK&nbsp;&amp;&nbsp;<span class="string">"\System.Data.DataSetExtensions.dll"</span>,<br /></td>
 </tr>
 <tr>
   <td id="L77" class="blob-num js-line-number" data-line-number="77">77</td>
-  <td id="LC77" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SDK&nbsp;&amp;&nbsp;<span class="string">"\System.Data.DataSetExtensions.dll"</span>,<br /></td>
+  <td id="LC77" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SDK&nbsp;&amp;&nbsp;<span class="string">"\System.Xml.dll"</span>,<br /></td>
 </tr>
 <tr>
   <td id="L78" class="blob-num js-line-number" data-line-number="78">78</td>
-  <td id="LC78" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SDK&nbsp;&amp;&nbsp;<span class="string">"\System.Xml.dll"</span>,<br /></td>
+  <td id="LC78" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SDK&nbsp;&amp;&nbsp;<span class="string">"\System.Xml.Linq.dll"</span><br /></td>
 </tr>
 <tr>
   <td id="L79" class="blob-num js-line-number" data-line-number="79">79</td>
-  <td id="LC79" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SDK&nbsp;&amp;&nbsp;<span class="string">"\System.Xml.Linq.dll"</span><br /></td>
+  <td id="LC79" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></td>
 </tr>
 <tr>
   <td id="L80" class="blob-num js-line-number" data-line-number="80">80</td>
-  <td id="LC80" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></td>
+  <td id="LC80" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Call</span>&nbsp;args.ReferencedAssemblies.AddRange(libs)<br /></td>
 </tr>
 <tr>
   <td id="L81" class="blob-num js-line-number" data-line-number="81">81</td>
-  <td id="LC81" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Call</span>&nbsp;args.ReferencedAssemblies.AddRange(libs)<br /></td>
+  <td id="LC81" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;args<br /></td>
 </tr>
 <tr>
   <td id="L82" class="blob-num js-line-number" data-line-number="82">82</td>
-  <td id="LC82" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;args<br /></td>
+  <td id="LC82" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
 </tr>
 <tr>
   <td id="L83" class="blob-num js-line-number" data-line-number="83">83</td>
-  <td id="LC83" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
+  <td id="LC83" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L84" class="blob-num js-line-number" data-line-number="84">84</td>
-  <td id="LC84" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC84" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L85" class="blob-num js-line-number" data-line-number="85">85</td>
-  <td id="LC85" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
+  <td id="LC85" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;see&nbsp;cref="App.References"/&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L86" class="blob-num js-line-number" data-line-number="86">86</td>
-  <td id="LC86" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;see&nbsp;cref="App.References"/&gt;</span><br /></td>
+  <td id="LC86" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L87" class="blob-num js-line-number" data-line-number="87">87</td>
-  <td id="LC87" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
+  <td id="LC87" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="SDK$"&gt;&lt;/param&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L88" class="blob-num js-line-number" data-line-number="88">88</td>
-  <td id="LC88" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="SDK$"&gt;&lt;/param&gt;</span><br /></td>
+  <td id="LC88" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="dll"&gt;&lt;/param&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L89" class="blob-num js-line-number" data-line-number="89">89</td>
-  <td id="LC89" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="dll"&gt;&lt;/param&gt;</span><br /></td>
+  <td id="LC89" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;&lt;/returns&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L90" class="blob-num js-line-number" data-line-number="90">90</td>
-  <td id="LC90" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;&lt;/returns&gt;</span><br /></td>
+  <td id="LC90" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Function</span>&nbsp;CreateParameters(references&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>(),&nbsp;<span class="keyword">Optional</span>&nbsp;SDK$&nbsp;=&nbsp;net46Default,&nbsp;<span class="keyword">Optional</span>&nbsp;dll&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Boolean</span>&nbsp;=&nbsp;<span class="keyword">True</span>)&nbsp;<span class="keyword">As</span>&nbsp;CompilerParameters<br /></td>
 </tr>
 <tr>
   <td id="L91" class="blob-num js-line-number" data-line-number="91">91</td>
-  <td id="LC91" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Function</span>&nbsp;CreateParameters(references&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>(),&nbsp;<span class="keyword">Optional</span>&nbsp;SDK$&nbsp;=&nbsp;net46Default,&nbsp;<span class="keyword">Optional</span>&nbsp;dll&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">Boolean</span>&nbsp;=&nbsp;<span class="keyword">True</span>)&nbsp;<span class="keyword">As</span>&nbsp;CompilerParameters<br /></td>
+  <td id="LC91" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;CreateParameters(ref:=references,&nbsp;dll:=dll,&nbsp;SDK:=SDK)<br /></td>
 </tr>
 <tr>
   <td id="L92" class="blob-num js-line-number" data-line-number="92">92</td>
-  <td id="LC92" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;CreateParameters(ref:=references,&nbsp;dll:=dll,&nbsp;SDK:=SDK)<br /></td>
+  <td id="LC92" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
 </tr>
 <tr>
   <td id="L93" class="blob-num js-line-number" data-line-number="93">93</td>
-  <td id="LC93" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
+  <td id="LC93" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L94" class="blob-num js-line-number" data-line-number="94">94</td>
-  <td id="LC94" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC94" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L95" class="blob-num js-line-number" data-line-number="95">95</td>
-  <td id="LC95" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
+  <td id="LC95" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span><br /></td>
 </tr>
 <tr>
   <td id="L96" class="blob-num js-line-number" data-line-number="96">96</td>
-  <td id="LC96" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span><br /></td>
+  <td id="LC96" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L97" class="blob-num js-line-number" data-line-number="97">97</td>
-  <td id="LC97" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
+  <td id="LC97" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"code"</span>&gt;VisualBasic源代码&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L98" class="blob-num js-line-number" data-line-number="98">98</td>
-  <td id="LC98" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="code"&gt;VisualBasic源代码&lt;/param&gt;</span><br /></td>
+  <td id="LC98" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"output"</span>&gt;The&nbsp;output&nbsp;``*.exe``&nbsp;file.&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L99" class="blob-num js-line-number" data-line-number="99">99</td>
-  <td id="LC99" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="output"&gt;The&nbsp;output&nbsp;``*.exe``&nbsp;file.&lt;/param&gt;</span><br /></td>
+  <td id="LC99" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;&lt;/returns&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L100" class="blob-num js-line-number" data-line-number="100">100</td>
-  <td id="LC100" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;&lt;/returns&gt;</span><br /></td>
+  <td id="LC100" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Function</span>&nbsp;CompileCode(code&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>,&nbsp;output&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>,&nbsp;<span class="keyword">Optional</span>&nbsp;<span class="keyword">ByRef</span>&nbsp;errInfo&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>&nbsp;=&nbsp;<span class="string">""</span>)&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">As</span>sembly<br /></td>
 </tr>
 <tr>
   <td id="L101" class="blob-num js-line-number" data-line-number="101">101</td>
-  <td id="LC101" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Function</span>&nbsp;CompileCode(code&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>,&nbsp;output&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>,&nbsp;<span class="keyword">Optional</span>&nbsp;<span class="keyword">ByRef</span>&nbsp;errInfo&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>&nbsp;=&nbsp;<span class="string">""</span>)&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">As</span>sembly<br /></td>
+  <td id="LC101" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;params&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">New</span>&nbsp;CompilerParameters()&nbsp;<span class="keyword">With</span>&nbsp;{&nbsp;<span class="comment">'&nbsp;Make&nbsp;sure&nbsp;we&nbsp;generate&nbsp;an&nbsp;EXE,&nbsp;not&nbsp;a&nbsp;DLL</span><br /></td>
 </tr>
 <tr>
   <td id="L102" class="blob-num js-line-number" data-line-number="102">102</td>
-  <td id="LC102" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;params&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">New</span>&nbsp;CompilerParameters()&nbsp;<span class="keyword">With</span>&nbsp;{&nbsp;<span class="comment">'&nbsp;Make&nbsp;sure&nbsp;we&nbsp;generate&nbsp;an&nbsp;EXE,&nbsp;not&nbsp;a&nbsp;DLL</span><br /></td>
+  <td id="LC102" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.GenerateExecutable&nbsp;=&nbsp;<span class="keyword">True</span>,<br /></td>
 </tr>
 <tr>
   <td id="L103" class="blob-num js-line-number" data-line-number="103">103</td>
-  <td id="LC103" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.GenerateExecutable&nbsp;=&nbsp;<span class="keyword">True</span>,<br /></td>
+  <td id="LC103" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.OutputAssembly&nbsp;=&nbsp;output<br /></td>
 </tr>
 <tr>
   <td id="L104" class="blob-num js-line-number" data-line-number="104">104</td>
-  <td id="LC104" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.OutputAssembly&nbsp;=&nbsp;output<br /></td>
+  <td id="LC104" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></td>
 </tr>
 <tr>
   <td id="L105" class="blob-num js-line-number" data-line-number="105">105</td>
-  <td id="LC105" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></td>
+  <td id="LC105" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L106" class="blob-num js-line-number" data-line-number="106">106</td>
-  <td id="LC106" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC106" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;VBC.CompileCode(code,&nbsp;params,&nbsp;errInfo)<br /></td>
 </tr>
 <tr>
   <td id="L107" class="blob-num js-line-number" data-line-number="107">107</td>
-  <td id="LC107" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;VBC.CompileCode(code,&nbsp;params,&nbsp;errInfo)<br /></td>
+  <td id="LC107" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
 </tr>
 <tr>
   <td id="L108" class="blob-num js-line-number" data-line-number="108">108</td>
-  <td id="LC108" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
+  <td id="LC108" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L109" class="blob-num js-line-number" data-line-number="109">109</td>
-  <td id="LC109" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC109" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L110" class="blob-num js-line-number" data-line-number="110">110</td>
-  <td id="LC110" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
+  <td id="LC110" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>If&nbsp;the&nbsp;code&nbsp;compile&nbsp;failure,&nbsp;then&nbsp;this&nbsp;function&nbsp;will&nbsp;returns&nbsp;nothing.<br /></td>
 </tr>
 <tr>
   <td id="L111" class="blob-num js-line-number" data-line-number="111">111</td>
-  <td id="LC111" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;<span class="keyword">If</span>&nbsp;the&nbsp;code&nbsp;compile&nbsp;failure,&nbsp;then&nbsp;this&nbsp;function&nbsp;will&nbsp;returns&nbsp;nothing.</span><br /></td>
+  <td id="LC111" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L112" class="blob-num js-line-number" data-line-number="112">112</td>
-  <td id="LC112" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
+  <td id="LC112" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"code"</span>&gt;VisualBasic源代码&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L113" class="blob-num js-line-number" data-line-number="113">113</td>
-  <td id="LC113" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="code"&gt;VisualBasic源代码&lt;/param&gt;</span><br /></td>
+  <td id="LC113" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;returns&gt;&lt;see&nbsp;cref=<span class="string">"Assembly"</span>/&gt;&nbsp;from&nbsp;the&nbsp;source&nbsp;&lt;paramref&nbsp;name=<span class="string">"code"</span>/&gt;&lt;/returns&gt;<br /></td>
 </tr>
 <tr>
   <td id="L114" class="blob-num js-line-number" data-line-number="114">114</td>
-  <td id="LC114" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;&lt;see&nbsp;cref="Assembly"/&gt;&nbsp;from&nbsp;the&nbsp;source&nbsp;&lt;paramref&nbsp;name="code"/&gt;&lt;/returns&gt;</span><br /></td>
+  <td id="LC114" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Function</span>&nbsp;CompileCode(code&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>,&nbsp;args&nbsp;<span class="keyword">As</span>&nbsp;CompilerParameters,&nbsp;<span class="keyword">Optional</span>&nbsp;<span class="keyword">ByRef</span>&nbsp;errInfo&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>&nbsp;=&nbsp;<span class="string">""</span>)&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">As</span>sembly<br /></td>
 </tr>
 <tr>
   <td id="L115" class="blob-num js-line-number" data-line-number="115">115</td>
-  <td id="LC115" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Function</span>&nbsp;CompileCode(code&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>,&nbsp;args&nbsp;<span class="keyword">As</span>&nbsp;CompilerParameters,&nbsp;<span class="keyword">Optional</span>&nbsp;<span class="keyword">ByRef</span>&nbsp;errInfo&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>&nbsp;=&nbsp;<span class="string">""</span>)&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">As</span>sembly<br /></td>
+  <td id="LC115" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;codeProvider&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">New</span>&nbsp;VBCodeProvider()<br /></td>
 </tr>
 <tr>
   <td id="L116" class="blob-num js-line-number" data-line-number="116">116</td>
-  <td id="LC116" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;codeProvider&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">New</span>&nbsp;VBCodeProvider()<br /></td>
+  <td id="LC116" class="blob-code blob-code-inner js-file-line">#Disable&nbsp;Warning<br /></td>
 </tr>
 <tr>
   <td id="L117" class="blob-num js-line-number" data-line-number="117">117</td>
-  <td id="LC117" class="blob-code blob-code-inner js-file-line">#Disable&nbsp;Warning<br /></td>
+  <td id="LC117" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;icc&nbsp;<span class="keyword">As</span>&nbsp;ICodeCompiler&nbsp;=&nbsp;codeProvider.CreateCompiler<br /></td>
 </tr>
 <tr>
   <td id="L118" class="blob-num js-line-number" data-line-number="118">118</td>
-  <td id="LC118" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;icc&nbsp;<span class="keyword">As</span>&nbsp;ICodeCompiler&nbsp;=&nbsp;codeProvider.CreateCompiler<br /></td>
+  <td id="LC118" class="blob-code blob-code-inner js-file-line">#Enable&nbsp;Warning<br /></td>
 </tr>
 <tr>
   <td id="L119" class="blob-num js-line-number" data-line-number="119">119</td>
-  <td id="LC119" class="blob-code blob-code-inner js-file-line">#Enable&nbsp;Warning<br /></td>
+  <td id="LC119" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;results&nbsp;<span class="keyword">As</span>&nbsp;CompilerResults&nbsp;=&nbsp;icc.CompileAssemblyFromSource(args,&nbsp;code)<br /></td>
 </tr>
 <tr>
   <td id="L120" class="blob-num js-line-number" data-line-number="120">120</td>
-  <td id="LC120" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;results&nbsp;<span class="keyword">As</span>&nbsp;CompilerResults&nbsp;=&nbsp;icc.CompileAssemblyFromSource(args,&nbsp;code)<br /></td>
+  <td id="LC120" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L121" class="blob-num js-line-number" data-line-number="121">121</td>
-  <td id="LC121" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC121" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">If</span>&nbsp;results.Errors.Count&nbsp;&gt;&nbsp;0&nbsp;<span class="keyword">Then</span>&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;There&nbsp;were&nbsp;compiler&nbsp;errors</span><br /></td>
 </tr>
 <tr>
   <td id="L122" class="blob-num js-line-number" data-line-number="122">122</td>
-  <td id="LC122" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">If</span>&nbsp;results.Errors.Count&nbsp;&gt;&nbsp;0&nbsp;<span class="keyword">Then</span>&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;There&nbsp;were&nbsp;compiler&nbsp;errors</span><br /></td>
+  <td id="LC122" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;err&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">New</span>&nbsp;<span class="keyword">String</span>Builder(<span class="string">"There&nbsp;were&nbsp;compiler&nbsp;errors:"</span>)<br /></td>
 </tr>
 <tr>
   <td id="L123" class="blob-num js-line-number" data-line-number="123">123</td>
-  <td id="LC123" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;err&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">New</span>&nbsp;<span class="keyword">String</span>Builder(<span class="string">"There&nbsp;were&nbsp;compiler&nbsp;errors:"</span>)<br /></td>
+  <td id="LC123" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Call</span>&nbsp;err.AppendLine()<br /></td>
 </tr>
 <tr>
   <td id="L124" class="blob-num js-line-number" data-line-number="124">124</td>
@@ -549,89 +558,104 @@
 </tr>
 <tr>
   <td id="L125" class="blob-num js-line-number" data-line-number="125">125</td>
-  <td id="LC125" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Call</span>&nbsp;err.AppendLine()<br /></td>
+  <td id="LC125" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L126" class="blob-num js-line-number" data-line-number="126">126</td>
-  <td id="LC126" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC126" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">For</span>&nbsp;<span class="keyword">Each</span>&nbsp;CompErr&nbsp;<span class="keyword">As</span>&nbsp;CompilerError&nbsp;<span class="keyword">In</span>&nbsp;results.Errors<br /></td>
 </tr>
 <tr>
   <td id="L127" class="blob-num js-line-number" data-line-number="127">127</td>
-  <td id="LC127" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">For</span>&nbsp;<span class="keyword">Each</span>&nbsp;CompErr&nbsp;<span class="keyword">As</span>&nbsp;CompilerError&nbsp;<span class="keyword">In</span>&nbsp;results.Errors<br /></td>
+  <td id="LC127" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;errDetail&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>&nbsp;=&nbsp;<span class="string">"Line&nbsp;number&nbsp;"</span>&nbsp;&amp;&nbsp;CompErr.Line&nbsp;&amp;<br /></td>
 </tr>
 <tr>
   <td id="L128" class="blob-num js-line-number" data-line-number="128">128</td>
-  <td id="LC128" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Dim</span>&nbsp;errDetail&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>&nbsp;=&nbsp;<span class="string">"Line&nbsp;number&nbsp;"</span>&nbsp;&amp;&nbsp;CompErr.Line&nbsp;&amp;<br /></td>
+  <td id="LC128" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">",&nbsp;<span class="keyword">Error</span>&nbsp;Number:&nbsp;"</span>&nbsp;&amp;&nbsp;CompErr.ErrorNumber&nbsp;&amp;<br /></td>
 </tr>
 <tr>
   <td id="L129" class="blob-num js-line-number" data-line-number="129">129</td>
-  <td id="LC129" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">",&nbsp;<span class="keyword">Error</span>&nbsp;Number:&nbsp;"</span>&nbsp;&amp;&nbsp;CompErr.ErrorNumber&nbsp;&amp;<br /></td>
+  <td id="LC129" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">",&nbsp;'"</span>&nbsp;&amp;&nbsp;CompErr.ErrorText&nbsp;&amp;&nbsp;<span class="string">";"</span><br /></td>
 </tr>
 <tr>
   <td id="L130" class="blob-num js-line-number" data-line-number="130">130</td>
-  <td id="LC130" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">",&nbsp;'"</span>&nbsp;&amp;&nbsp;CompErr.ErrorText&nbsp;&amp;&nbsp;<span class="string">";"</span><br /></td>
+  <td id="LC130" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L131" class="blob-num js-line-number" data-line-number="131">131</td>
-  <td id="LC131" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC131" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Call</span>&nbsp;err.AppendLine(errDetail)<br /></td>
 </tr>
 <tr>
   <td id="L132" class="blob-num js-line-number" data-line-number="132">132</td>
-  <td id="LC132" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Call</span>&nbsp;err.AppendLine(errDetail)<br /></td>
+  <td id="LC132" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Call</span>&nbsp;err.AppendLine()<br /></td>
 </tr>
 <tr>
   <td id="L133" class="blob-num js-line-number" data-line-number="133">133</td>
-  <td id="LC133" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Call</span>&nbsp;err.AppendLine()<br /></td>
+  <td id="LC133" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Next</span><br /></td>
 </tr>
 <tr>
   <td id="L134" class="blob-num js-line-number" data-line-number="134">134</td>
-  <td id="LC134" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Next</span><br /></td>
+  <td id="LC134" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L135" class="blob-num js-line-number" data-line-number="135">135</td>
-  <td id="LC135" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC135" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;errInfo&nbsp;=&nbsp;err.ToString<br /></td>
 </tr>
 <tr>
   <td id="L136" class="blob-num js-line-number" data-line-number="136">136</td>
-  <td id="LC136" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;errInfo&nbsp;=&nbsp;err.ToString<br /></td>
+  <td id="LC136" class="blob-code blob-code-inner js-file-line"><br /></td>
 </tr>
 <tr>
   <td id="L137" class="blob-num js-line-number" data-line-number="137">137</td>
-  <td id="LC137" class="blob-code blob-code-inner js-file-line"><br /></td>
+  <td id="LC137" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">Nothing</span><br /></td>
 </tr>
 <tr>
   <td id="L138" class="blob-num js-line-number" data-line-number="138">138</td>
-  <td id="LC138" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">Nothing</span><br /></td>
+  <td id="LC138" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Else</span><br /></td>
 </tr>
 <tr>
   <td id="L139" class="blob-num js-line-number" data-line-number="139">139</td>
-  <td id="LC139" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Else</span><br /></td>
+  <td id="LC139" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;Successful&nbsp;Compile</span><br /></td>
 </tr>
 <tr>
   <td id="L140" class="blob-num js-line-number" data-line-number="140">140</td>
-  <td id="LC140" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;Successful&nbsp;Compile</span><br /></td>
+  <td id="LC140" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;results.CompiledAssembly<br /></td>
 </tr>
 <tr>
   <td id="L141" class="blob-num js-line-number" data-line-number="141">141</td>
-  <td id="LC141" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;results.CompiledAssembly<br /></td>
+  <td id="LC141" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">If</span><br /></td>
 </tr>
 <tr>
   <td id="L142" class="blob-num js-line-number" data-line-number="142">142</td>
-  <td id="LC142" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">If</span><br /></td>
+  <td id="LC142" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
 </tr>
 <tr>
   <td id="L143" class="blob-num js-line-number" data-line-number="143">143</td>
-  <td id="LC143" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
+  <td id="LC143" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Module</span><br /></td>
 </tr>
 <tr>
   <td id="L144" class="blob-num js-line-number" data-line-number="144">144</td>
-  <td id="LC144" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Module</span><br /></td>
-</tr>
-<tr>
-  <td id="L145" class="blob-num js-line-number" data-line-number="145">145</td>
-  <td id="LC145" class="blob-code blob-code-inner js-file-line"><span class="keyword">End</span>&nbsp;<span class="keyword">Namespace</span><br /></td>
+  <td id="LC144" class="blob-code blob-code-inner js-file-line"><span class="keyword">End</span>&nbsp;<span class="keyword">Namespace</span><br /></td>
 </tr></tbody>
 </table>
                         </div>
   </body>
+  <script type="text/javascript">
+                        var url_path = "./VBC.html";
+                                              
+	                    var lines = document.getElementsByClassName("js-line-number");
+	
+	                    for (var i = 0; i < lines.length; i++) {
+		                    var line = lines[i];
+		                    var a = document.createElement("a");
+		                    var num = line.getAttribute("data-line-number");
+		                    var id = line.id;
+		
+		                    a.setAttribute("href", url_path + "#" + id);
+		                    a.setAttribute("target", "_self");
+                            a.innerText = num;
+
+		                    line.innerHTML = "";
+		                    line.appendChild(a);
+	                    }
+                        </script>
 </html>

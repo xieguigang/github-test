@@ -1,5 +1,8 @@
 <html>
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="VisualBasic Programming" />
     <title>Text\Parser\ParserValue.vb</title>
     <style type="text/css">
                             
@@ -36,7 +39,8 @@
                                 color: #2b91af;                                
                                 text-align: right;
                                 padding-right: 5px;
-                                border-right-style: inset;
+                                /* border-right-style: inset; 
+                                */
                             }
 
                             .js-file-line .js-line-number {
@@ -46,6 +50,11 @@
                             .js-file-line {
                                 padding-left: 10px;
                             }
+
+                            a:link { text-decoration: none;color: #2b91af}
+　　                        a:active { text-decoration:blink}
+　　                        a:hover { text-decoration:underline;color: #2b91af} 
+　　                        a:visited { text-decoration: none;color: #2b91af}
                         </style>
   </head>
   <body>
@@ -53,7 +62,7 @@
                             <table class="highlight tab-size js-file-line-container" data-tab-size="8">
   <tbody><tr>
   <td id="L1" class="blob-num js-line-number" data-line-number="1">1</td>
-  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::f5481ec438fe81a7a303ad3ba53495d3,&nbsp;Microsoft.VisualBasic.Core\Text\Parser\ParserValue.vb"</span><br /></td>
+  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::74b136ead327862e99ae3bf1465b2bdc,&nbsp;Microsoft.VisualBasic.Core\Text\Parser\ParserValue.vb"</span><br /></td>
 </tr>
 <tr>
   <td id="L2" class="blob-num js-line-number" data-line-number="2">2</td>
@@ -253,15 +262,15 @@
 </tr>
 <tr>
   <td id="L51" class="blob-num js-line-number" data-line-number="51">51</td>
-  <td id="LC51" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
+  <td id="LC51" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;/summary&gt;<br /></td>
 </tr>
 <tr>
   <td id="L52" class="blob-num js-line-number" data-line-number="52">52</td>
-  <td id="LC52" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;typeparam&nbsp;name="T"&gt;&lt;/typeparam&gt;</span><br /></td>
+  <td id="LC52" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;typeparam&nbsp;name=<span class="string">"T"</span>&gt;&lt;/typeparam&gt;<br /></td>
 </tr>
 <tr>
   <td id="L53" class="blob-num js-line-number" data-line-number="53">53</td>
-  <td id="LC53" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;remarks&gt;这个对象的用途和&lt;see&nbsp;cref="NamedValue(Of&nbsp;T)"/&gt;对象的用途是一致的，只不过差异在于所想要表达的寓意上面&lt;/remarks&gt;</span><br /></td>
+  <td id="LC53" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;remarks&gt;这个对象的用途和&lt;see&nbsp;cref=<span class="string">"NamedValue(Of&nbsp;T)"</span>/&gt;对象的用途是一致的，只不过差异在于所想要表达的寓意上面&lt;/remarks&gt;<br /></td>
 </tr>
 <tr>
   <td id="L54" class="blob-num js-line-number" data-line-number="54">54</td>
@@ -302,4 +311,23 @@
 </table>
                         </div>
   </body>
+  <script type="text/javascript">
+                        var url_path = "./ParserValue.html";
+                                              
+	                    var lines = document.getElementsByClassName("js-line-number");
+	
+	                    for (var i = 0; i < lines.length; i++) {
+		                    var line = lines[i];
+		                    var a = document.createElement("a");
+		                    var num = line.getAttribute("data-line-number");
+		                    var id = line.id;
+		
+		                    a.setAttribute("href", url_path + "#" + id);
+		                    a.setAttribute("target", "_self");
+                            a.innerText = num;
+
+		                    line.innerHTML = "";
+		                    line.appendChild(a);
+	                    }
+                        </script>
 </html>

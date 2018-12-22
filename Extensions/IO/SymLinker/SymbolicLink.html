@@ -1,5 +1,8 @@
 <html>
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="VisualBasic Programming" />
     <title>Extensions\IO\SymLinker\SymbolicLink.vb</title>
     <style type="text/css">
                             
@@ -36,7 +39,8 @@
                                 color: #2b91af;                                
                                 text-align: right;
                                 padding-right: 5px;
-                                border-right-style: inset;
+                                /* border-right-style: inset; 
+                                */
                             }
 
                             .js-file-line .js-line-number {
@@ -46,6 +50,11 @@
                             .js-file-line {
                                 padding-left: 10px;
                             }
+
+                            a:link { text-decoration: none;color: #2b91af}
+　　                        a:active { text-decoration:blink}
+　　                        a:hover { text-decoration:underline;color: #2b91af} 
+　　                        a:visited { text-decoration: none;color: #2b91af}
                         </style>
   </head>
   <body>
@@ -53,7 +62,7 @@
                             <table class="highlight tab-size js-file-line-container" data-tab-size="8">
   <tbody><tr>
   <td id="L1" class="blob-num js-line-number" data-line-number="1">1</td>
-  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::3657912b74e191d47455cc60f5792cc7,&nbsp;Microsoft.VisualBasic.Core\Extensions\IO\SymLinker\SymbolicLink.vb"</span><br /></td>
+  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::d9df2d7ccf09d84c2a224a63d00899d0,&nbsp;Microsoft.VisualBasic.Core\Extensions\IO\SymLinker\SymbolicLink.vb"</span><br /></td>
 </tr>
 <tr>
   <td id="L2" class="blob-num js-line-number" data-line-number="2">2</td>
@@ -289,11 +298,11 @@
 </tr>
 <tr>
   <td id="L60" class="blob-num js-line-number" data-line-number="60">60</td>
-  <td id="LC60" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
+  <td id="LC60" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;/summary&gt;<br /></td>
 </tr>
 <tr>
   <td id="L61" class="blob-num js-line-number" data-line-number="61">61</td>
-  <td id="LC61" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;remarks&gt;https://github.com/amd989/Symlinker&lt;/remarks&gt;</span><br /></td>
+  <td id="LC61" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;remarks&gt;https://github.com/amd989/Symlinker&lt;/remarks&gt;<br /></td>
 </tr>
 <tr>
   <td id="L62" class="blob-num js-line-number" data-line-number="62">62</td>
@@ -349,11 +358,11 @@
 </tr>
 <tr>
   <td id="L75" class="blob-num js-line-number" data-line-number="75">75</td>
-  <td id="LC75" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;Read,&nbsp;Write,&nbsp;Delete</span><br /></td>
+  <td id="LC75" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>Read,&nbsp;Write,&nbsp;Delete<br /></td>
 </tr>
 <tr>
   <td id="L76" class="blob-num js-line-number" data-line-number="76">76</td>
-  <td id="LC76" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
+  <td id="LC76" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;/summary&gt;<br /></td>
 </tr>
 <tr>
   <td id="L77" class="blob-num js-line-number" data-line-number="77">77</td>
@@ -373,7 +382,7 @@
 </tr>
 <tr>
   <td id="L81" class="blob-num js-line-number" data-line-number="81">81</td>
-  <td id="LC81" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
+  <td id="LC81" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;/summary&gt;<br /></td>
 </tr>
 <tr>
   <td id="L82" class="blob-num js-line-number" data-line-number="82">82</td>
@@ -806,4 +815,23 @@
 </table>
                         </div>
   </body>
+  <script type="text/javascript">
+                        var url_path = "./SymbolicLink.html";
+                                              
+	                    var lines = document.getElementsByClassName("js-line-number");
+	
+	                    for (var i = 0; i < lines.length; i++) {
+		                    var line = lines[i];
+		                    var a = document.createElement("a");
+		                    var num = line.getAttribute("data-line-number");
+		                    var id = line.id;
+		
+		                    a.setAttribute("href", url_path + "#" + id);
+		                    a.setAttribute("target", "_self");
+                            a.innerText = num;
+
+		                    line.innerHTML = "";
+		                    line.appendChild(a);
+	                    }
+                        </script>
 </html>

@@ -1,5 +1,8 @@
 <html>
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="VisualBasic Programming" />
     <title>ApplicationServices\Tools\Win32\Win32API.vb</title>
     <style type="text/css">
                             
@@ -36,7 +39,8 @@
                                 color: #2b91af;                                
                                 text-align: right;
                                 padding-right: 5px;
-                                border-right-style: inset;
+                                /* border-right-style: inset; 
+                                */
                             }
 
                             .js-file-line .js-line-number {
@@ -46,6 +50,11 @@
                             .js-file-line {
                                 padding-left: 10px;
                             }
+
+                            a:link { text-decoration: none;color: #2b91af}
+　　                        a:active { text-decoration:blink}
+　　                        a:hover { text-decoration:underline;color: #2b91af} 
+　　                        a:visited { text-decoration: none;color: #2b91af}
                         </style>
   </head>
   <body>
@@ -53,7 +62,7 @@
                             <table class="highlight tab-size js-file-line-container" data-tab-size="8">
   <tbody><tr>
   <td id="L1" class="blob-num js-line-number" data-line-number="1">1</td>
-  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::a8249973c8caf43e37764fb9bbd8e1f2,&nbsp;Microsoft.VisualBasic.Core\ApplicationServices\Tools\Win32\Win32API.vb"</span><br /></td>
+  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::ddbb9dd4f95699b61d4328dc97447f20,&nbsp;Microsoft.VisualBasic.Core\ApplicationServices\Tools\Win32\Win32API.vb"</span><br /></td>
 </tr>
 <tr>
   <td id="L2" class="blob-num js-line-number" data-line-number="2">2</td>
@@ -917,7 +926,7 @@
 </tr>
 <tr>
   <td id="L217" class="blob-num js-line-number" data-line-number="217">217</td>
-  <td id="LC217" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Const</span>&nbsp;MERGEPAINT&nbsp;=&nbsp;&amp;HBB0226&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;(DWORD)&nbsp;dest&nbsp;=&nbsp;(NOT&nbsp;source)&nbsp;OR&nbsp;dest</span><br /></td>
+  <td id="LC217" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Const</span>&nbsp;MERGEPAINT&nbsp;=&nbsp;&amp;HBB0226&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment"><span class="comment">'&nbsp;(DWORD)&nbsp;dest&nbsp;=&nbsp;(NOT&nbsp;source)</span>&nbsp;OR&nbsp;dest</span><br /></td>
 </tr>
 <tr>
   <td id="L218" class="blob-num js-line-number" data-line-number="218">218</td>
@@ -933,7 +942,7 @@
 </tr>
 <tr>
   <td id="L221" class="blob-num js-line-number" data-line-number="221">221</td>
-  <td id="LC221" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Const</span>&nbsp;PATINVERT&nbsp;=&nbsp;&amp;H5A0049&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;(DWORD)&nbsp;dest&nbsp;=&nbsp;pattern&nbsp;XOR&nbsp;dest</span><br /></td>
+  <td id="LC221" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Const</span>&nbsp;PATINVERT&nbsp;=&nbsp;&amp;H5A0049&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;(DWORD)&nbsp;dest&nbsp;=&nbsp;pattern</span>&nbsp;XOR&nbsp;dest<br /></td>
 </tr>
 <tr>
   <td id="L222" class="blob-num js-line-number" data-line-number="222">222</td>
@@ -941,7 +950,7 @@
 </tr>
 <tr>
   <td id="L223" class="blob-num js-line-number" data-line-number="223">223</td>
-  <td id="LC223" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Const</span>&nbsp;SRCAND&nbsp;=&nbsp;&amp;H8800C6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;(DWORD)&nbsp;dest&nbsp;=&nbsp;source&nbsp;AND&nbsp;dest</span><br /></td>
+  <td id="LC223" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Const</span>&nbsp;SRCAND&nbsp;=&nbsp;&amp;H8800C6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment"><span class="comment">'&nbsp;(DWORD)&nbsp;dest&nbsp;=&nbsp;source</span>&nbsp;AND&nbsp;dest</span><br /></td>
 </tr>
 <tr>
   <td id="L224" class="blob-num js-line-number" data-line-number="224">224</td>
@@ -949,15 +958,15 @@
 </tr>
 <tr>
   <td id="L225" class="blob-num js-line-number" data-line-number="225">225</td>
-  <td id="LC225" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Const</span>&nbsp;SRCERASE&nbsp;=&nbsp;&amp;H440328&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;(DWORD)&nbsp;dest&nbsp;=&nbsp;source&nbsp;AND&nbsp;(NOT&nbsp;dest&nbsp;)</span><br /></td>
+  <td id="LC225" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Const</span>&nbsp;SRCERASE&nbsp;=&nbsp;&amp;H440328&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;(DWORD)&nbsp;dest&nbsp;=&nbsp;source</span>&nbsp;AND&nbsp;(NOT&nbsp;dest&nbsp;)<br /></td>
 </tr>
 <tr>
   <td id="L226" class="blob-num js-line-number" data-line-number="226">226</td>
-  <td id="LC226" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Const</span>&nbsp;SRCINVERT&nbsp;=&nbsp;&amp;H660046&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;(DWORD)&nbsp;dest&nbsp;=&nbsp;source&nbsp;XOR&nbsp;dest</span><br /></td>
+  <td id="LC226" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Const</span>&nbsp;SRCINVERT&nbsp;=&nbsp;&amp;H660046&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;(DWORD)&nbsp;dest&nbsp;=&nbsp;source</span>&nbsp;XOR&nbsp;dest<br /></td>
 </tr>
 <tr>
   <td id="L227" class="blob-num js-line-number" data-line-number="227">227</td>
-  <td id="LC227" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Const</span>&nbsp;SRCPAINT&nbsp;=&nbsp;&amp;HEE0086&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;(DWORD)&nbsp;dest&nbsp;=&nbsp;source&nbsp;OR&nbsp;dest</span><br /></td>
+  <td id="LC227" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Const</span>&nbsp;SRCPAINT&nbsp;=&nbsp;&amp;HEE0086&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;(DWORD)&nbsp;dest&nbsp;=&nbsp;source</span>&nbsp;OR&nbsp;dest<br /></td>
 </tr>
 <tr>
   <td id="L228" class="blob-num js-line-number" data-line-number="228">228</td>
@@ -1126,4 +1135,23 @@
 </table>
                         </div>
   </body>
+  <script type="text/javascript">
+                        var url_path = "./Win32API.html";
+                                              
+	                    var lines = document.getElementsByClassName("js-line-number");
+	
+	                    for (var i = 0; i < lines.length; i++) {
+		                    var line = lines[i];
+		                    var a = document.createElement("a");
+		                    var num = line.getAttribute("data-line-number");
+		                    var id = line.id;
+		
+		                    a.setAttribute("href", url_path + "#" + id);
+		                    a.setAttribute("target", "_self");
+                            a.innerText = num;
+
+		                    line.innerHTML = "";
+		                    line.appendChild(a);
+	                    }
+                        </script>
 </html>

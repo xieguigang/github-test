@@ -1,5 +1,8 @@
 <html>
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="VisualBasic Programming" />
     <title>Language\BaseClass.vb</title>
     <style type="text/css">
                             
@@ -36,7 +39,8 @@
                                 color: #2b91af;                                
                                 text-align: right;
                                 padding-right: 5px;
-                                border-right-style: inset;
+                                /* border-right-style: inset; 
+                                */
                             }
 
                             .js-file-line .js-line-number {
@@ -46,6 +50,11 @@
                             .js-file-line {
                                 padding-left: 10px;
                             }
+
+                            a:link { text-decoration: none;color: #2b91af}
+　　                        a:active { text-decoration:blink}
+　　                        a:hover { text-decoration:underline;color: #2b91af} 
+　　                        a:visited { text-decoration: none;color: #2b91af}
                         </style>
   </head>
   <body>
@@ -53,7 +62,7 @@
                             <table class="highlight tab-size js-file-line-container" data-tab-size="8">
   <tbody><tr>
   <td id="L1" class="blob-num js-line-number" data-line-number="1">1</td>
-  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::72a6dcacf718ed181ca3abb4dae1c5e3,&nbsp;Microsoft.VisualBasic.Core\Language\BaseClass.vb"</span><br /></td>
+  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::decd1d16f8bd8664b6efe4343e8c06ea,&nbsp;Microsoft.VisualBasic.Core\Language\BaseClass.vb"</span><br /></td>
 </tr>
 <tr>
   <td id="L2" class="blob-num js-line-number" data-line-number="2">2</td>
@@ -397,7 +406,7 @@
 </tr>
 <tr>
   <td id="L87" class="blob-num js-line-number" data-line-number="87">87</td>
-  <td id="LC87" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;The&nbsp;base&nbsp;class&nbsp;object&nbsp;in&nbsp;VisualBasic&nbsp;language</span><br /></td>
+  <td id="LC87" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;The&nbsp;base&nbsp;class&nbsp;object&nbsp;in&nbsp;VisualBasic</span>&nbsp;language<br /></td>
 </tr>
 <tr>
   <td id="L88" class="blob-num js-line-number" data-line-number="88">88</td>
@@ -441,7 +450,7 @@
 </tr>
 <tr>
   <td id="L98" class="blob-num js-line-number" data-line-number="98">98</td>
-  <td id="LC98" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;http://stackoverflow.com/questions/2501466/xmltext-attribute-in-base-class-breakes-serialization</span><br /></td>
+  <td id="LC98" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>http://stackoverflow.com/questions/2501466/xmltext-attribute-in-base-class-breakes-serialization<br /></td>
 </tr>
 <tr>
   <td id="L99" class="blob-num js-line-number" data-line-number="99">99</td>
@@ -449,27 +458,27 @@
 </tr>
 <tr>
   <td id="L100" class="blob-num js-line-number" data-line-number="100">100</td>
-  <td id="LC100" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;So&nbsp;I&nbsp;think&nbsp;you&nbsp;could&nbsp;make&nbsp;it&nbsp;work&nbsp;by&nbsp;adding&nbsp;a&nbsp;dummy&nbsp;property&nbsp;or&nbsp;field&nbsp;that&nbsp;you&nbsp;never&nbsp;</span><br /></td>
+  <td id="LC100" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>So&nbsp;I&nbsp;think&nbsp;you&nbsp;could&nbsp;make&nbsp;it&nbsp;work&nbsp;by&nbsp;adding&nbsp;a&nbsp;dummy&nbsp;property&nbsp;or&nbsp;field&nbsp;that&nbsp;you&nbsp;never&nbsp;<br /></td>
 </tr>
 <tr>
   <td id="L101" class="blob-num js-line-number" data-line-number="101">101</td>
-  <td id="LC101" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;use&nbsp;in&nbsp;the&nbsp;``LookupItem``&nbsp;class.&nbsp;</span><br /></td>
+  <td id="LC101" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>use&nbsp;in&nbsp;the&nbsp;``LookupItem``&nbsp;class.&nbsp;<br /></td>
 </tr>
 <tr>
   <td id="L102" class="blob-num js-line-number" data-line-number="102">102</td>
-  <td id="LC102" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;<span class="keyword">If</span>&nbsp;you're&nbsp;never&nbsp;assign&nbsp;a&nbsp;value&nbsp;to&nbsp;it,&nbsp;it&nbsp;will&nbsp;remain&nbsp;null&nbsp;and&nbsp;will&nbsp;not&nbsp;be&nbsp;serialized,&nbsp;</span><br /></td>
+  <td id="LC102" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>If&nbsp;you<span class="comment">'re&nbsp;never&nbsp;assign&nbsp;a&nbsp;value&nbsp;to&nbsp;it,&nbsp;it&nbsp;will&nbsp;remain&nbsp;null&nbsp;and&nbsp;will&nbsp;not&nbsp;be&nbsp;serialized,&nbsp;</span><br /></td>
 </tr>
 <tr>
   <td id="L103" class="blob-num js-line-number" data-line-number="103">103</td>
-  <td id="LC103" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;but&nbsp;it&nbsp;will&nbsp;prevent&nbsp;your&nbsp;class&nbsp;from&nbsp;being&nbsp;treated&nbsp;as&nbsp;simpleContent.&nbsp;I&nbsp;know&nbsp;it's&nbsp;a&nbsp;</span><br /></td>
+  <td id="LC103" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>but&nbsp;it&nbsp;will&nbsp;prevent&nbsp;your&nbsp;class&nbsp;from&nbsp;being&nbsp;treated&nbsp;as&nbsp;simpleContent.&nbsp;I&nbsp;know&nbsp;it<span class="comment">'s&nbsp;a&nbsp;</span><br /></td>
 </tr>
 <tr>
   <td id="L104" class="blob-num js-line-number" data-line-number="104">104</td>
-  <td id="LC104" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;dirty&nbsp;workaround,&nbsp;but&nbsp;I&nbsp;see&nbsp;no&nbsp;other&nbsp;easy&nbsp;way...</span><br /></td>
+  <td id="LC104" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>dirty&nbsp;workaround,&nbsp;but&nbsp;I&nbsp;see&nbsp;no&nbsp;other&nbsp;easy&nbsp;way...<br /></td>
 </tr>
 <tr>
   <td id="L105" class="blob-num js-line-number" data-line-number="105">105</td>
-  <td id="LC105" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/remarks&gt;</span><br /></td>
+  <td id="LC105" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;/remarks&gt;<br /></td>
 </tr>
 <tr>
   <td id="L106" class="blob-num js-line-number" data-line-number="106">106</td>
@@ -497,7 +506,7 @@
 </tr>
 <tr>
   <td id="L112" class="blob-num js-line-number" data-line-number="112">112</td>
-  <td id="LC112" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;<span class="keyword">Get</span>&nbsp;dynamics&nbsp;property&nbsp;value.</span><br /></td>
+  <td id="LC112" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>Get&nbsp;dynamics&nbsp;property&nbsp;value.<br /></td>
 </tr>
 <tr>
   <td id="L113" class="blob-num js-line-number" data-line-number="113">113</td>
@@ -509,7 +518,7 @@
 </tr>
 <tr>
   <td id="L115" class="blob-num js-line-number" data-line-number="115">115</td>
-  <td id="LC115" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="name"&gt;&lt;/param&gt;</span><br /></td>
+  <td id="LC115" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"name"</span>&gt;&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L116" class="blob-num js-line-number" data-line-number="116">116</td>
@@ -537,7 +546,7 @@
 </tr>
 <tr>
   <td id="L122" class="blob-num js-line-number" data-line-number="122">122</td>
-  <td id="LC122" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;<span class="keyword">Default</span>&nbsp;is&nbsp;display&nbsp;the&nbsp;json&nbsp;value&nbsp;of&nbsp;the&nbsp;object&nbsp;class</span><br /></td>
+  <td id="LC122" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>Default&nbsp;is&nbsp;display&nbsp;the&nbsp;json&nbsp;value&nbsp;of&nbsp;the&nbsp;object&nbsp;class<br /></td>
 </tr>
 <tr>
   <td id="L123" class="blob-num js-line-number" data-line-number="123">123</td>
@@ -569,7 +578,7 @@
 </tr>
 <tr>
   <td id="L130" class="blob-num js-line-number" data-line-number="130">130</td>
-  <td id="LC130" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;<span class="keyword">String</span>&nbsp;source&nbsp;for&nbsp;operator&nbsp;&lt;see&nbsp;cref="BaseClass.Operator&nbsp;&amp;(BaseClass,&nbsp;<span class="keyword">String</span>)"/&gt;</span><br /></td>
+  <td id="LC130" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>String&nbsp;source&nbsp;for&nbsp;operator&nbsp;&lt;see&nbsp;cref=<span class="string">"BaseClass.Operator&nbsp;&amp;(BaseClass,&nbsp;<span class="keyword">String</span>)"</span>/&gt;<br /></td>
 </tr>
 <tr>
   <td id="L131" class="blob-num js-line-number" data-line-number="131">131</td>
@@ -577,7 +586,7 @@
 </tr>
 <tr>
   <td id="L132" class="blob-num js-line-number" data-line-number="132">132</td>
-  <td id="LC132" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;Default&nbsp;is&nbsp;using&nbsp;&lt;see&nbsp;cref="ToString"/&gt;&nbsp;method&nbsp;as&nbsp;provider&lt;/returns&gt;</span><br /></td>
+  <td id="LC132" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;returns&gt;Default&nbsp;is&nbsp;using&nbsp;&lt;see&nbsp;cref=<span class="string">"ToString"</span>/&gt;&nbsp;method&nbsp;as&nbsp;provider&lt;/returns&gt;<br /></td>
 </tr>
 <tr>
   <td id="L133" class="blob-num js-line-number" data-line-number="133">133</td>
@@ -601,7 +610,7 @@
 </tr>
 <tr>
   <td id="L138" class="blob-num js-line-number" data-line-number="138">138</td>
-  <td id="LC138" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;Contact&nbsp;this&nbsp;class&nbsp;object&nbsp;with&nbsp;other&nbsp;string&nbsp;value</span><br /></td>
+  <td id="LC138" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>Contact&nbsp;this&nbsp;class&nbsp;object&nbsp;with&nbsp;other&nbsp;string&nbsp;value<br /></td>
 </tr>
 <tr>
   <td id="L139" class="blob-num js-line-number" data-line-number="139">139</td>
@@ -613,7 +622,7 @@
 </tr>
 <tr>
   <td id="L141" class="blob-num js-line-number" data-line-number="141">141</td>
-  <td id="LC141" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="s"&gt;&lt;/param&gt;</span><br /></td>
+  <td id="LC141" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"s"</span>&gt;&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L142" class="blob-num js-line-number" data-line-number="142">142</td>
@@ -641,7 +650,7 @@
 </tr>
 <tr>
   <td id="L148" class="blob-num js-line-number" data-line-number="148">148</td>
-  <td id="LC148" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;Contact&nbsp;this&nbsp;class&nbsp;object&nbsp;with&nbsp;other&nbsp;string&nbsp;value</span><br /></td>
+  <td id="LC148" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>Contact&nbsp;this&nbsp;class&nbsp;object&nbsp;with&nbsp;other&nbsp;string&nbsp;value<br /></td>
 </tr>
 <tr>
   <td id="L149" class="blob-num js-line-number" data-line-number="149">149</td>
@@ -649,7 +658,7 @@
 </tr>
 <tr>
   <td id="L150" class="blob-num js-line-number" data-line-number="150">150</td>
-  <td id="LC150" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="s"&gt;&lt;/param&gt;</span><br /></td>
+  <td id="LC150" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"s"</span>&gt;&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L151" class="blob-num js-line-number" data-line-number="151">151</td>
@@ -746,4 +755,23 @@
 </table>
                         </div>
   </body>
+  <script type="text/javascript">
+                        var url_path = "./BaseClass.html";
+                                              
+	                    var lines = document.getElementsByClassName("js-line-number");
+	
+	                    for (var i = 0; i < lines.length; i++) {
+		                    var line = lines[i];
+		                    var a = document.createElement("a");
+		                    var num = line.getAttribute("data-line-number");
+		                    var id = line.id;
+		
+		                    a.setAttribute("href", url_path + "#" + id);
+		                    a.setAttribute("target", "_self");
+                            a.innerText = num;
+
+		                    line.innerHTML = "";
+		                    line.appendChild(a);
+	                    }
+                        </script>
 </html>

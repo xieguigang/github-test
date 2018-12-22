@@ -1,5 +1,8 @@
 <html>
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="VisualBasic Programming" />
     <title>ComponentModel\DataStructures\Set\SetsExtension.vb</title>
     <style type="text/css">
                             
@@ -36,7 +39,8 @@
                                 color: #2b91af;                                
                                 text-align: right;
                                 padding-right: 5px;
-                                border-right-style: inset;
+                                /* border-right-style: inset; 
+                                */
                             }
 
                             .js-file-line .js-line-number {
@@ -46,6 +50,11 @@
                             .js-file-line {
                                 padding-left: 10px;
                             }
+
+                            a:link { text-decoration: none;color: #2b91af}
+　　                        a:active { text-decoration:blink}
+　　                        a:hover { text-decoration:underline;color: #2b91af} 
+　　                        a:visited { text-decoration: none;color: #2b91af}
                         </style>
   </head>
   <body>
@@ -53,7 +62,7 @@
                             <table class="highlight tab-size js-file-line-container" data-tab-size="8">
   <tbody><tr>
   <td id="L1" class="blob-num js-line-number" data-line-number="1">1</td>
-  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::9a7863656bea2451647ada32825bc553,&nbsp;Microsoft.VisualBasic.Core\ComponentModel\DataStructures\Set\SetsExtension.vb"</span><br /></td>
+  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::0c122d047d50bdca55d274a682e7e847,&nbsp;Microsoft.VisualBasic.Core\ComponentModel\DataStructures\Set\SetsExtension.vb"</span><br /></td>
 </tr>
 <tr>
   <td id="L2" class="blob-num js-line-number" data-line-number="2">2</td>
@@ -193,7 +202,7 @@
 </tr>
 <tr>
   <td id="L36" class="blob-num js-line-number" data-line-number="36">36</td>
-  <td id="LC36" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Function</span>:&nbsp;(+2&nbsp;<span class="keyword">Overloads</span>)&nbsp;<span class="keyword">As</span>Set,&nbsp;Except,&nbsp;<span class="keyword">In</span>tersection,&nbsp;<span class="keyword">To</span>Array,&nbsp;Union</span><br /></td>
+  <td id="LC36" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Function</span>:&nbsp;(+2&nbsp;<span class="keyword">Overloads</span>)&nbsp;<span class="keyword">As</span>Set,&nbsp;Except,&nbsp;<span class="keyword">In</span>tersection,&nbsp;(+3&nbsp;<span class="keyword">Overloads</span>)&nbsp;<span class="keyword">To</span>Array,&nbsp;Union</span><br /></td>
 </tr>
 <tr>
   <td id="L37" class="blob-num js-line-number" data-line-number="37">37</td>
@@ -333,7 +342,7 @@
 </tr>
 <tr>
   <td id="L71" class="blob-num js-line-number" data-line-number="71">71</td>
-  <td id="LC71" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;差集，函数会从&lt;paramref&nbsp;name="s1"/&gt;集合之中删除&lt;paramref&nbsp;name="s2"/&gt;中共同的元素</span><br /></td>
+  <td id="LC71" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>差集，函数会从&lt;paramref&nbsp;name=<span class="string">"s1"</span>/&gt;集合之中删除&lt;paramref&nbsp;name=<span class="string">"s2"</span>/&gt;中共同的元素<br /></td>
 </tr>
 <tr>
   <td id="L72" class="blob-num js-line-number" data-line-number="72">72</td>
@@ -341,11 +350,11 @@
 </tr>
 <tr>
   <td id="L73" class="blob-num js-line-number" data-line-number="73">73</td>
-  <td id="LC73" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="s1"&gt;&lt;/param&gt;</span><br /></td>
+  <td id="LC73" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"s1"</span>&gt;&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L74" class="blob-num js-line-number" data-line-number="74">74</td>
-  <td id="LC74" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="s2"&gt;&lt;/param&gt;</span><br /></td>
+  <td id="LC74" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"s2"</span>&gt;&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L75" class="blob-num js-line-number" data-line-number="75">75</td>
@@ -381,7 +390,7 @@
 </tr>
 <tr>
   <td id="L83" class="blob-num js-line-number" data-line-number="83">83</td>
-  <td id="LC83" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;就并集</span><br /></td>
+  <td id="LC83" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>就并集<br /></td>
 </tr>
 <tr>
   <td id="L84" class="blob-num js-line-number" data-line-number="84">84</td>
@@ -389,11 +398,11 @@
 </tr>
 <tr>
   <td id="L85" class="blob-num js-line-number" data-line-number="85">85</td>
-  <td id="LC85" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="s1"&gt;&lt;/param&gt;</span><br /></td>
+  <td id="LC85" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"s1"</span>&gt;&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L86" class="blob-num js-line-number" data-line-number="86">86</td>
-  <td id="LC86" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="s2"&gt;&lt;/param&gt;</span><br /></td>
+  <td id="LC86" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"s2"</span>&gt;&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L87" class="blob-num js-line-number" data-line-number="87">87</td>
@@ -429,7 +438,7 @@
 </tr>
 <tr>
   <td id="L95" class="blob-num js-line-number" data-line-number="95">95</td>
-  <td id="LC95" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;求交集</span><br /></td>
+  <td id="LC95" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>求交集<br /></td>
 </tr>
 <tr>
   <td id="L96" class="blob-num js-line-number" data-line-number="96">96</td>
@@ -437,11 +446,11 @@
 </tr>
 <tr>
   <td id="L97" class="blob-num js-line-number" data-line-number="97">97</td>
-  <td id="LC97" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="s1"&gt;&lt;/param&gt;</span><br /></td>
+  <td id="LC97" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"s1"</span>&gt;&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L98" class="blob-num js-line-number" data-line-number="98">98</td>
-  <td id="LC98" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="s2"&gt;&lt;/param&gt;</span><br /></td>
+  <td id="LC98" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"s2"</span>&gt;&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L99" class="blob-num js-line-number" data-line-number="99">99</td>
@@ -477,7 +486,7 @@
 </tr>
 <tr>
   <td id="L107" class="blob-num js-line-number" data-line-number="107">107</td>
-  <td id="LC107" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;将任意序列转换为集合类型</span><br /></td>
+  <td id="LC107" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>将任意序列转换为集合类型<br /></td>
 </tr>
 <tr>
   <td id="L108" class="blob-num js-line-number" data-line-number="108">108</td>
@@ -485,7 +494,7 @@
 </tr>
 <tr>
   <td id="L109" class="blob-num js-line-number" data-line-number="109">109</td>
-  <td id="LC109" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="source"&gt;&lt;/param&gt;</span><br /></td>
+  <td id="LC109" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"source"</span>&gt;&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L110" class="blob-num js-line-number" data-line-number="110">110</td>
@@ -541,33 +550,72 @@
 </tr>
 <tr>
   <td id="L123" class="blob-num js-line-number" data-line-number="123">123</td>
-  <td id="LC123" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;MethodImpl(MethodImplOptions.AggressiveInlining)&gt;<br /></td>
+  <td id="LC123" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L124" class="blob-num js-line-number" data-line-number="124">124</td>
-  <td id="LC124" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;Extension&gt;<br /></td>
+  <td id="LC124" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>Create&nbsp;a&nbsp;string&nbsp;set<br /></td>
 </tr>
 <tr>
   <td id="L125" class="blob-num js-line-number" data-line-number="125">125</td>
-  <td id="LC125" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Function</span>&nbsp;<span class="keyword">As</span>Set(strings&nbsp;<span class="keyword">As</span>&nbsp;IEnumerable(Of&nbsp;<span class="keyword">String</span>))&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>Set<br /></td>
+  <td id="LC125" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;/summary&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L126" class="blob-num js-line-number" data-line-number="126">126</td>
-  <td id="LC126" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">New</span>&nbsp;<span class="keyword">String</span>Set(strings)<br /></td>
+  <td id="LC126" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"strings"</span>&gt;&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L127" class="blob-num js-line-number" data-line-number="127">127</td>
-  <td id="LC127" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
+  <td id="LC127" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;&lt;/returns&gt;</span><br /></td>
 </tr>
 <tr>
   <td id="L128" class="blob-num js-line-number" data-line-number="128">128</td>
-  <td id="LC128" class="blob-code blob-code-inner js-file-line">#<span class="keyword">End</span>&nbsp;Region<br /></td>
+  <td id="LC128" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;MethodImpl(MethodImplOptions.AggressiveInlining)&gt;<br /></td>
 </tr>
 <tr>
   <td id="L129" class="blob-num js-line-number" data-line-number="129">129</td>
-  <td id="LC129" class="blob-code blob-code-inner js-file-line"><span class="keyword">End</span>&nbsp;<span class="keyword">Module</span><br /></td>
+  <td id="LC129" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;Extension&gt;<br /></td>
+</tr>
+<tr>
+  <td id="L130" class="blob-num js-line-number" data-line-number="130">130</td>
+  <td id="LC130" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Function</span>&nbsp;<span class="keyword">As</span>Set(strings&nbsp;<span class="keyword">As</span>&nbsp;IEnumerable(Of&nbsp;<span class="keyword">String</span>))&nbsp;<span class="keyword">As</span>&nbsp;<span class="keyword">String</span>Set<br /></td>
+</tr>
+<tr>
+  <td id="L131" class="blob-num js-line-number" data-line-number="131">131</td>
+  <td id="LC131" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Return</span>&nbsp;<span class="keyword">New</span>&nbsp;<span class="keyword">String</span>Set(strings)<br /></td>
+</tr>
+<tr>
+  <td id="L132" class="blob-num js-line-number" data-line-number="132">132</td>
+  <td id="LC132" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">End</span>&nbsp;<span class="keyword">Function</span><br /></td>
+</tr>
+<tr>
+  <td id="L133" class="blob-num js-line-number" data-line-number="133">133</td>
+  <td id="LC133" class="blob-code blob-code-inner js-file-line">#<span class="keyword">End</span>&nbsp;Region<br /></td>
+</tr>
+<tr>
+  <td id="L134" class="blob-num js-line-number" data-line-number="134">134</td>
+  <td id="LC134" class="blob-code blob-code-inner js-file-line"><span class="keyword">End</span>&nbsp;<span class="keyword">Module</span><br /></td>
 </tr></tbody>
 </table>
                         </div>
   </body>
+  <script type="text/javascript">
+                        var url_path = "./SetsExtension.html";
+                                              
+	                    var lines = document.getElementsByClassName("js-line-number");
+	
+	                    for (var i = 0; i < lines.length; i++) {
+		                    var line = lines[i];
+		                    var a = document.createElement("a");
+		                    var num = line.getAttribute("data-line-number");
+		                    var id = line.id;
+		
+		                    a.setAttribute("href", url_path + "#" + id);
+		                    a.setAttribute("target", "_self");
+                            a.innerText = num;
+
+		                    line.innerHTML = "";
+		                    line.appendChild(a);
+	                    }
+                        </script>
 </html>

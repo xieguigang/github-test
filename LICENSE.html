@@ -1,5 +1,8 @@
 <html>
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="VisualBasic Programming" />
     <title>LICENSE.vb</title>
     <style type="text/css">
                             
@@ -36,7 +39,8 @@
                                 color: #2b91af;                                
                                 text-align: right;
                                 padding-right: 5px;
-                                border-right-style: inset;
+                                /* border-right-style: inset; 
+                                */
                             }
 
                             .js-file-line .js-line-number {
@@ -46,6 +50,11 @@
                             .js-file-line {
                                 padding-left: 10px;
                             }
+
+                            a:link { text-decoration: none;color: #2b91af}
+　　                        a:active { text-decoration:blink}
+　　                        a:hover { text-decoration:underline;color: #2b91af} 
+　　                        a:visited { text-decoration: none;color: #2b91af}
                         </style>
   </head>
   <body>
@@ -53,7 +62,7 @@
                             <table class="highlight tab-size js-file-line-container" data-tab-size="8">
   <tbody><tr>
   <td id="L1" class="blob-num js-line-number" data-line-number="1">1</td>
-  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::0f7a88bf5a1aae4ec39085ee28f06bb0,&nbsp;Microsoft.VisualBasic.Core\LICENSE.vb"</span><br /></td>
+  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::834b3bfcf002ec7d5c8555b5a490799a,&nbsp;Microsoft.VisualBasic.Core\LICENSE.vb"</span><br /></td>
 </tr>
 <tr>
   <td id="L2" class="blob-num js-line-number" data-line-number="2">2</td>
@@ -273,7 +282,7 @@
 </tr>
 <tr>
   <td id="L56" class="blob-num js-line-number" data-line-number="56">56</td>
-  <td id="LC56" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''</span><br /></td>
+  <td id="LC56" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;'''<br /></td>
 </tr>
 <tr>
   <td id="L57" class="blob-num js-line-number" data-line-number="57">57</td>
@@ -289,7 +298,7 @@
 </tr>
 <tr>
   <td id="L60" class="blob-num js-line-number" data-line-number="60">60</td>
-  <td id="LC60" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''</span><br /></td>
+  <td id="LC60" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;'''<br /></td>
 </tr>
 <tr>
   <td id="L61" class="blob-num js-line-number" data-line-number="61">61</td>
@@ -297,7 +306,7 @@
 </tr>
 <tr>
   <td id="L62" class="blob-num js-line-number" data-line-number="62">62</td>
-  <td id="LC62" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''</span><br /></td>
+  <td id="LC62" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;'''<br /></td>
 </tr>
 <tr>
   <td id="L63" class="blob-num js-line-number" data-line-number="63">63</td>
@@ -309,7 +318,7 @@
 </tr>
 <tr>
   <td id="L65" class="blob-num js-line-number" data-line-number="65">65</td>
-  <td id="LC65" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''</span><br /></td>
+  <td id="LC65" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;'''<br /></td>
 </tr>
 <tr>
   <td id="L66" class="blob-num js-line-number" data-line-number="66">66</td>
@@ -357,7 +366,7 @@
 </tr>
 <tr>
   <td id="L77" class="blob-num js-line-number" data-line-number="77">77</td>
-  <td id="LC77" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Friend</span>&nbsp;<span class="keyword">Const</span>&nbsp;githubURL$&nbsp;=&nbsp;<span class="string">"https://github.com/xieguigang/sciBASIC"</span><br /></td>
+  <td id="LC77" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">Public</span>&nbsp;<span class="keyword">Const</span>&nbsp;githubURL$&nbsp;=&nbsp;<span class="string">"https://github.com/xieguigang/sciBASIC"</span><br /></td>
 </tr>
 <tr>
   <td id="L78" class="blob-num js-line-number" data-line-number="78">78</td>
@@ -402,4 +411,23 @@
 </table>
                         </div>
   </body>
+  <script type="text/javascript">
+                        var url_path = "./LICENSE.html";
+                                              
+	                    var lines = document.getElementsByClassName("js-line-number");
+	
+	                    for (var i = 0; i < lines.length; i++) {
+		                    var line = lines[i];
+		                    var a = document.createElement("a");
+		                    var num = line.getAttribute("data-line-number");
+		                    var id = line.id;
+		
+		                    a.setAttribute("href", url_path + "#" + id);
+		                    a.setAttribute("target", "_self");
+                            a.innerText = num;
+
+		                    line.innerHTML = "";
+		                    line.appendChild(a);
+	                    }
+                        </script>
 </html>

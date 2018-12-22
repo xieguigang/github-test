@@ -1,5 +1,8 @@
 <html>
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="VisualBasic Programming" />
     <title>Extensions\Image\Colors\HexColor.vb</title>
     <style type="text/css">
                             
@@ -36,7 +39,8 @@
                                 color: #2b91af;                                
                                 text-align: right;
                                 padding-right: 5px;
-                                border-right-style: inset;
+                                /* border-right-style: inset; 
+                                */
                             }
 
                             .js-file-line .js-line-number {
@@ -46,6 +50,11 @@
                             .js-file-line {
                                 padding-left: 10px;
                             }
+
+                            a:link { text-decoration: none;color: #2b91af}
+　　                        a:active { text-decoration:blink}
+　　                        a:hover { text-decoration:underline;color: #2b91af} 
+　　                        a:visited { text-decoration: none;color: #2b91af}
                         </style>
   </head>
   <body>
@@ -53,7 +62,7 @@
                             <table class="highlight tab-size js-file-line-container" data-tab-size="8">
   <tbody><tr>
   <td id="L1" class="blob-num js-line-number" data-line-number="1">1</td>
-  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::6641f5239ef62eb6814e59d2f9fe32f0,&nbsp;Microsoft.VisualBasic.Core\Extensions\Image\Colors\HexColor.vb"</span><br /></td>
+  <td id="LC1" class="blob-code blob-code-inner js-file-line">#Region&nbsp;<span class="string">"Microsoft.VisualBasic::deb20948057d077ab9605a5ca6c33ec4,&nbsp;Microsoft.VisualBasic.Core\Extensions\Image\Colors\HexColor.vb"</span><br /></td>
 </tr>
 <tr>
   <td id="L2" class="blob-num js-line-number" data-line-number="2">2</td>
@@ -393,7 +402,7 @@
 </tr>
 <tr>
   <td id="L86" class="blob-num js-line-number" data-line-number="86">86</td>
-  <td id="LC86" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hex&nbsp;=&nbsp;Replace(Hex,&nbsp;<span class="string">"#"</span>,&nbsp;<span class="string">""</span>)<br /></td>
+  <td id="LC86" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hex&nbsp;=&nbsp;<span class="keyword">String</span>s.Replace(Hex,&nbsp;<span class="string">"#"</span>,&nbsp;<span class="string">""</span>)<br /></td>
 </tr>
 <tr>
   <td id="L87" class="blob-num js-line-number" data-line-number="87">87</td>
@@ -401,7 +410,7 @@
 </tr>
 <tr>
   <td id="L88" class="blob-num js-line-number" data-line-number="88">88</td>
-  <td id="LC88" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hex&nbsp;=&nbsp;Replace(Hex,&nbsp;red,&nbsp;<span class="string">""</span>,&nbsp;,&nbsp;1)<br /></td>
+  <td id="LC88" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hex&nbsp;=&nbsp;<span class="keyword">String</span>s.Replace(Hex,&nbsp;red,&nbsp;<span class="string">""</span>,&nbsp;,&nbsp;1)<br /></td>
 </tr>
 <tr>
   <td id="L89" class="blob-num js-line-number" data-line-number="89">89</td>
@@ -409,7 +418,7 @@
 </tr>
 <tr>
   <td id="L90" class="blob-num js-line-number" data-line-number="90">90</td>
-  <td id="LC90" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hex&nbsp;=&nbsp;Replace(Hex,&nbsp;green,&nbsp;<span class="string">""</span>,&nbsp;,&nbsp;1)<br /></td>
+  <td id="LC90" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hex&nbsp;=&nbsp;<span class="keyword">String</span>s.Replace(Hex,&nbsp;green,&nbsp;<span class="string">""</span>,&nbsp;,&nbsp;1)<br /></td>
 </tr>
 <tr>
   <td id="L91" class="blob-num js-line-number" data-line-number="91">91</td>
@@ -417,7 +426,7 @@
 </tr>
 <tr>
   <td id="L92" class="blob-num js-line-number" data-line-number="92">92</td>
-  <td id="LC92" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hex&nbsp;=&nbsp;Replace(Hex,&nbsp;blue,&nbsp;<span class="string">""</span>,&nbsp;,&nbsp;1)<br /></td>
+  <td id="LC92" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hex&nbsp;=&nbsp;<span class="keyword">String</span>s.Replace(Hex,&nbsp;blue,&nbsp;<span class="string">""</span>,&nbsp;,&nbsp;1)<br /></td>
 </tr>
 <tr>
   <td id="L93" class="blob-num js-line-number" data-line-number="93">93</td>
@@ -445,11 +454,11 @@
 </tr>
 <tr>
   <td id="L99" class="blob-num js-line-number" data-line-number="99">99</td>
-  <td id="LC99" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;param&nbsp;name="c"&gt;Example:&nbsp;``#ffffff``&lt;/param&gt;</span><br /></td>
+  <td id="LC99" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;param&nbsp;name=<span class="string">"c"</span>&gt;Example:&nbsp;``#ffffff``&lt;/param&gt;<br /></td>
 </tr>
 <tr>
   <td id="L100" class="blob-num js-line-number" data-line-number="100">100</td>
-  <td id="LC100" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;&lt;returns&gt;&lt;/returns&gt;</span><br /></td>
+  <td id="LC100" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml_comment">'''&nbsp;</span>&lt;returns&gt;&lt;/returns&gt;<br /></td>
 </tr>
 <tr>
   <td id="L101" class="blob-num js-line-number" data-line-number="101">101</td>
@@ -457,7 +466,7 @@
 </tr>
 <tr>
   <td id="L102" class="blob-num js-line-number" data-line-number="102">102</td>
-  <td id="LC102" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c&nbsp;=&nbsp;Replace(c,&nbsp;<span class="string">"#"</span>,&nbsp;<span class="string">""</span>)<br /></td>
+  <td id="LC102" class="blob-code blob-code-inner js-file-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c&nbsp;=&nbsp;<span class="keyword">String</span>s.Replace(c,&nbsp;<span class="string">"#"</span>,&nbsp;<span class="string">""</span>)<br /></td>
 </tr>
 <tr>
   <td id="L103" class="blob-num js-line-number" data-line-number="103">103</td>
@@ -482,4 +491,23 @@
 </table>
                         </div>
   </body>
+  <script type="text/javascript">
+                        var url_path = "./HexColor.html";
+                                              
+	                    var lines = document.getElementsByClassName("js-line-number");
+	
+	                    for (var i = 0; i < lines.length; i++) {
+		                    var line = lines[i];
+		                    var a = document.createElement("a");
+		                    var num = line.getAttribute("data-line-number");
+		                    var id = line.id;
+		
+		                    a.setAttribute("href", url_path + "#" + id);
+		                    a.setAttribute("target", "_self");
+                            a.innerText = num;
+
+		                    line.innerHTML = "";
+		                    line.appendChild(a);
+	                    }
+                        </script>
 </html>
