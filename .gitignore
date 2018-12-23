@@ -2,7 +2,12 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+<<<<<<< HEAD
 /.vs/scibasic-website/v16
 *.sqlite
 *.sqlite-journal
 /App
+=======
+*.sqlite
+*.suo
+>>>>>>> 557782c21b3576fd30e640f6f94d042455c262b3
